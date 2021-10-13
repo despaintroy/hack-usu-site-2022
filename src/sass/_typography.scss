@@ -1,0 +1,16 @@
+// Import Google Fonts
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab:wght@200;400&display=swap');
+
+$roboto-slab: 'Roboto Slab', serif;
+$roboto: 'Roboto', serif;
+
+body {
+	font-family: $roboto !important;
+}
+
+.lead {
+	font-family: $roboto-slab;
+	color: $white !important;
+	font-size: 10vw !important;
+	font-weight: 100;
+}

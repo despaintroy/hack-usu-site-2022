@@ -2,13 +2,13 @@ import 'sass/_app.scss'
 
 import React from 'react'
 
-import logo from './logo.svg'
-
 function App(): React.ReactElement {
 	return (
 		<div className='App'>
 			<header className='App-header'>
-				<img src={logo} className='App-logo' alt='logo' />
+				<h1 className='lead'>Hack USU</h1>
+				<p>March 25–26, 2022</p>
+				{/* <img src={logo} className='App-logo' alt='logo' /> */}
 			</header>
 		</div>
 	)
