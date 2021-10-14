@@ -1,9 +1,8 @@
 @import 'essentials';
 
 .disclosure {
-	box-shadow: 2px 2px 3px $gray-dark;
+	box-shadow: 0 0 3px $gray-dark;
 	border-radius: 6px;
-	border: 1px solid $black;
 	background-color: $white;
 	overflow: hidden;
 	margin-bottom: 0.8rem;
@@ -22,5 +21,21 @@
 	.content {
 		padding: 0.6rem;
 		background-color: $gray-lighter;
+	}
+}
+
+.subheader {
+	text-align: center;
+	h2 {
+		font-size: 2rem;
+		margin: 0 0 1rem !important;
+	}
+	p {
+		color: $gray-dark;
+	}
+	hr {
+		max-width: 10rem;
+		margin: 0.5rem auto 2.5rem;
+		border: 1px solid $gray-darker;
 	}
 }
