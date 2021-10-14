@@ -9,7 +9,7 @@ import { faqList } from './faqContent'
 function Faq(): React.ReactElement {
 	return (
 		<div className='faq py-5'>
-			<Container className='md'>
+			<Container className='narrow'>
 				<Subheader text='FAQ' />
 				{faqList.map((faq, idx) => (
 					<Disclosure title={faq.question} key={idx}>

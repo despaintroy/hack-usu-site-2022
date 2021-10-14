@@ -11,7 +11,7 @@ function Schedule(): React.ReactElement {
 			<div className='schedule-table'>
 				{data.map((s, idx) => (
 					<Row key={idx}>
-						<Col>{s.time}</Col>
+						<Col xs={3}>{s.time}</Col>
 						<Col>{s.event}</Col>
 						<Col>{s.location}</Col>
 					</Row>
@@ -22,7 +22,7 @@ function Schedule(): React.ReactElement {
 
 	return (
 		<div className='schedule py-5'>
-			<Container className='md'>
+			<Container className='narrow'>
 				<Subheader
 					text='Schedule'
 					subtext='Tenative schedule for the 2022 Hack USU is subject to change'
