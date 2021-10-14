@@ -4,7 +4,9 @@ body {
 
 .bg-primary {
 	color: $white !important;
-	h1 {
+	h1,
+	h2,
+	h3 {
 		color: unset !important;
 	}
 }

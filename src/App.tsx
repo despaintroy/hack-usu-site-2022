@@ -5,6 +5,7 @@ import React from 'react'
 import Faq from 'ts/containers/Faq'
 import Footer from 'ts/containers/Footer'
 import Lead from 'ts/containers/Lead'
+import Location from 'ts/containers/Location'
 import Schedule from 'ts/containers/Schedule'
 
 function App(): React.ReactElement {
@@ -12,6 +13,7 @@ function App(): React.ReactElement {
 		<div className='app'>
 			<Lead />
 			<Schedule />
+			<Location />
 			<Faq />
 			{/* <Contact /> */}
 			<Footer />

@@ -40,6 +40,15 @@
 	hr {
 		max-width: 10rem;
 		margin: 0.5rem auto 2.5rem;
-		border: 1px solid $gray-darker;
+		border: 1px solid $gray;
+		opacity: 100;
+	}
+	&.light {
+		p {
+			color: $gray;
+		}
+		hr {
+			border: 1px solid $gray-dark;
+		}
 	}
 }
