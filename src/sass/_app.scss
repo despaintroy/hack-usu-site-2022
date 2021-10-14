@@ -23,9 +23,6 @@
 	text-align: center;
 	color: $black;
 	padding: 2rem;
-	&.hh {
-		height: 200px;
-	}
 	&.map {
 		height: 300px;
 	}
@@ -34,6 +31,16 @@
 // ===================================
 //   CONTAINERS
 // ===================================
+
+.contact {
+	.hh-banner {
+		width: 100%;
+		height: 250px;
+		object-fit: cover;
+		margin-bottom: 2rem;
+		object-position: 0% 50%;
+	}
+}
 
 .footer {
 	background-color: $aggie-blue;

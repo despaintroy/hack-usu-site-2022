@@ -17,10 +17,10 @@ function Location(): React.ReactElement {
 			<Container>
 				<Subheader
 					text='Location'
-					subtext='Hack USU 2022 will be located at Huntsman Hall, Utah State University Campus'
+					subtext='Hack USU 2022 will be hosted at Huntsman Hall, Utah State University Campus'
 					light
 				/>
-				<div className='placeholder hh w-100 mb-5'>Huntsman Hall photo</div>
+				<img src={process.env.PUBLIC_URL + '/huntsman-hall.jpg'} className='hh-banner' />
 				<Row>
 					<Col>
 						<div className='placeholder map w-100'>

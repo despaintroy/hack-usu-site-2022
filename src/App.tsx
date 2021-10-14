@@ -17,7 +17,6 @@ function App(): React.ReactElement {
 			<Faq />
 			{/* <Contact /> */}
 			<Footer />
-			{/* <img src={logo} className='App-logo' alt='logo' /> */}
 		</div>
 	)
 }
