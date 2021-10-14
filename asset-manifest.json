@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/hack-usu-site-2022/static/css/main.2b854cc2.chunk.css",
-    "main.js": "/hack-usu-site-2022/static/js/main.a6331cb8.chunk.js",
-    "main.js.map": "/hack-usu-site-2022/static/js/main.a6331cb8.chunk.js.map",
+    "main.css": "/hack-usu-site-2022/static/css/main.2a5924f0.chunk.css",
+    "main.js": "/hack-usu-site-2022/static/js/main.8eb36230.chunk.js",
+    "main.js.map": "/hack-usu-site-2022/static/js/main.8eb36230.chunk.js.map",
     "runtime-main.js": "/hack-usu-site-2022/static/js/runtime-main.85408936.js",
     "runtime-main.js.map": "/hack-usu-site-2022/static/js/runtime-main.85408936.js.map",
-    "static/js/2.6d3106f9.chunk.js": "/hack-usu-site-2022/static/js/2.6d3106f9.chunk.js",
-    "static/js/2.6d3106f9.chunk.js.map": "/hack-usu-site-2022/static/js/2.6d3106f9.chunk.js.map",
+    "static/js/2.5eaf82bc.chunk.js": "/hack-usu-site-2022/static/js/2.5eaf82bc.chunk.js",
+    "static/js/2.5eaf82bc.chunk.js.map": "/hack-usu-site-2022/static/js/2.5eaf82bc.chunk.js.map",
     "index.html": "/hack-usu-site-2022/index.html",
-    "static/css/main.2b854cc2.chunk.css.map": "/hack-usu-site-2022/static/css/main.2b854cc2.chunk.css.map",
-    "static/js/2.6d3106f9.chunk.js.LICENSE.txt": "/hack-usu-site-2022/static/js/2.6d3106f9.chunk.js.LICENSE.txt"
+    "static/css/main.2a5924f0.chunk.css.map": "/hack-usu-site-2022/static/css/main.2a5924f0.chunk.css.map",
+    "static/js/2.5eaf82bc.chunk.js.LICENSE.txt": "/hack-usu-site-2022/static/js/2.5eaf82bc.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.85408936.js",
-    "static/js/2.6d3106f9.chunk.js",
-    "static/css/main.2b854cc2.chunk.css",
-    "static/js/main.a6331cb8.chunk.js"
+    "static/js/2.5eaf82bc.chunk.js",
+    "static/css/main.2a5924f0.chunk.css",
+    "static/js/main.8eb36230.chunk.js"
   ]
 }
