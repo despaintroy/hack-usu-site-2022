@@ -19,6 +19,11 @@
 //   CONTAINERS
 // ===================================
 
+.footer {
+	background-color: $aggie-blue;
+	min-height: 100px;
+}
+
 .lead {
 	text-align: center;
 	background-image: linear-gradient($aggie-blue, darken($aggie-blue, 8));
