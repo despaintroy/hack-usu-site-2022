@@ -1,6 +1,11 @@
 import React from 'react'
 
-import { Button, Col, Container, Row } from 'react-bootstrap'
+import {
+	Button,
+	Col,
+	Container,
+	Row,
+} from 'react-bootstrap'
 import Subheader from 'ts/components/Subheader'
 
 const googleMapsLink =
@@ -15,6 +20,7 @@ function Location(): React.ReactElement {
 					subtext='Hack USU 2022 will be located at Huntsman Hall, Utah State University Campus'
 					light
 				/>
+				<div className='placeholder hh w-100 mb-5'>Huntsman Hall photo</div>
 				<Row>
 					<Col>
 						<div className='placeholder map w-100'>
@@ -23,7 +29,7 @@ function Location(): React.ReactElement {
 					</Col>
 					<Col>
 						<h3>Huntsman Hall</h3>
-						<Button variant='light' href={googleMapsLink}>
+						<Button variant='light' href={googleMapsLink} target='_blank'>
 							Open in Google Maps &nbsp;&rarr;
 						</Button>
 						<h3 className='mt-5'>Parking</h3>
