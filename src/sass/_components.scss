@@ -1,0 +1,26 @@
+@import 'essentials';
+
+.disclosure {
+	box-shadow: 2px 2px 3px $gray-dark;
+	border-radius: 6px;
+	border: 1px solid $black;
+	background-color: $white;
+	overflow: hidden;
+	margin-bottom: 0.8rem;
+	.title {
+		color: $white;
+		cursor: pointer;
+		font-weight: bold;
+		font-family: $roboto-slab;
+		padding: 0.6rem;
+		font-size: 1.2rem;
+		background-color: $aggie-blue;
+		&:hover {
+			background-color: $blue-darker;
+		}
+	}
+	.content {
+		padding: 0.6rem;
+		background-color: $gray-lighter;
+	}
+}

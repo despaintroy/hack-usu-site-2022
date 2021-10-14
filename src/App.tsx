@@ -2,14 +2,15 @@ import 'sass/_app.scss'
 
 import React from 'react'
 
+import Faq from 'ts/containers/Faq'
+import Lead from 'ts/containers/Lead'
+
 function App(): React.ReactElement {
 	return (
-		<div className='App'>
-			<header className='App-header'>
-				<h1 className='lead'>Hack USU</h1>
-				<p>March 25–26, 2022</p>
-				{/* <img src={logo} className='App-logo' alt='logo' /> */}
-			</header>
+		<div className='app'>
+			<Lead />
+			<Faq />
+			{/* <img src={logo} className='App-logo' alt='logo' /> */}
 		</div>
 	)
 }

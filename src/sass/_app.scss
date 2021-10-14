@@ -1,15 +1,36 @@
 @import 'essentials';
 
-.App {
-	text-align: center;
+.full-height {
+	min-height: 100vh;
 }
 
-.App-header {
-	background-color: $primary;
-	min-height: 100vh;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	font-size: calc(10px + 2vmin);
+.cta {
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+// ===================================
+//   CONTAINERS
+// ===================================
+
+.lead {
+	text-align: center;
+	background-image: linear-gradient($aggie-blue, darken($aggie-blue, 8));
+	h1 {
+		font-family: $roboto-slab;
+		font-size: 12vw;
+		text-transform: uppercase;
+	}
+	.date {
+		font-family: $roboto-slab;
+		font-weight: bold;
+		text-transform: uppercase;
+		font-size: 2rem;
+	}
+	.container {
+		height: 100vh;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
 }
