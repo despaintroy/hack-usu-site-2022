@@ -80,10 +80,23 @@
 }
 
 .schedule {
-	.row {
-		padding: 0.5rem;
+	.schedule-row {
+		padding: 0.5rem 0;
+		width: 100%;
+		display: flex;
+		.time {
+			min-width: 100px;
+			width: 10rem;
+		}
+		.title {
+			font-weight: bold;
+			color: $blue-darker;
+		}
+		.location {
+			color: $black-light;
+		}
 	}
-	.row:nth-child(odd) {
-		background-color: $gray-lighter;
-	}
+	// .schedule-row:nth-child(odd) {
+	// 	background-color: $gray-lighter;
+	// }
 }

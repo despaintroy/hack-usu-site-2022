@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { Col, Container, Row } from 'react-bootstrap'
+import { Container } from 'react-bootstrap'
 import Subheader from 'ts/components/Subheader'
 
 import { friSchedule, satSchedule, ScheduleData } from './scheduleContent'
@@ -10,11 +10,13 @@ function Schedule(): React.ReactElement {
 		return (
 			<div className='schedule-table'>
 				{data.map((s, idx) => (
-					<Row key={idx}>
-						<Col xs={3}>{s.time}</Col>
-						<Col>{s.event}</Col>
-						<Col>{s.location}</Col>
-					</Row>
+					<div key={idx} className='schedule-row'>
+						<div className='time'>{s.time}</div>
+						<div>
+							<div className='title'>{s.title}</div>
+							<div className='location'>{s.location}</div>
+						</div>
+					</div>
 				))}
 			</div>
 		)
