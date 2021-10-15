@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { Container } from 'react-bootstrap'
+import { Col, Container, Row } from 'react-bootstrap'
 import Subheader from 'ts/components/Subheader'
 
 import { friSchedule, satSchedule, ScheduleData } from './scheduleContent'
@@ -29,15 +29,20 @@ function Schedule(): React.ReactElement {
 					text='Schedule'
 					subtext='Tenative schedule for the 2022 HackUSU is subject to change'
 				/>
-				<h3>
-					Friday, March 25<sup>th</sup>
-				</h3>
-				{renderTable(friSchedule)}
-
-				<h3 className='mt-5'>
-					Saturday, March 26<sup>th</sup>
-				</h3>
-				{renderTable(satSchedule)}
+				<Row className='gx-5 mx-auto'>
+					<Col md='auto' className='mb-5'>
+						<h3>
+							Friday, March 25<sup>th</sup>
+						</h3>
+						{renderTable(friSchedule)}
+					</Col>
+					<Col>
+						<h3>
+							Saturday, March 26<sup>th</sup>
+						</h3>
+						{renderTable(satSchedule)}
+					</Col>
+				</Row>
 			</Container>
 		</div>
 	)
