@@ -12,7 +12,7 @@ function Location(): React.ReactElement {
 			<Container>
 				<Subheader
 					text='Location'
-					subtext='Hack USU 2022 will be hosted at Huntsman Hall, Utah State University Campus'
+					subtext='HackUSU 2022 will be hosted at Huntsman Hall, Utah State University Campus'
 					light
 				/>
 				<img

@@ -10,7 +10,7 @@ export const faqList: FaqData[] = [
 			"You can't use any code that was written before the start of the hackathon. However, we encourage you to begin thinking of ideas now!",
 	},
 	{
-		question: 'Who can attend Hack USU?',
+		question: 'Who can attend HackUSU?',
 		answer:
 			'Students from all schools are welcome! You must currently be a university or college student, or have graduated in the last 12 months. There is no restriction on major.',
 	},

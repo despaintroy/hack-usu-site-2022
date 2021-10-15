@@ -1,4 +1,4 @@
-# 2022 Hack USU Marketing Site
+# 2022 HackUSU Marketing Site
 
 ## Contributing
 

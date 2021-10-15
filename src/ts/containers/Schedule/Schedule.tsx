@@ -25,7 +25,7 @@ function Schedule(): React.ReactElement {
 			<Container className='narrow'>
 				<Subheader
 					text='Schedule'
-					subtext='Tenative schedule for the 2022 Hack USU is subject to change'
+					subtext='Tenative schedule for the 2022 HackUSU is subject to change'
 				/>
 				<h3>
 					Friday, March 25<sup>th</sup>
