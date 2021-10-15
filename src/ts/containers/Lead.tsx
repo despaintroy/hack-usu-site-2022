@@ -14,7 +14,7 @@ function Lead(): React.ReactElement {
 						2022
 					</div>
 					<Button
-						variant='success cta'
+						variant='success fw-bold text-uppercase'
 						size='lg'
 						className='mt-5 px-5'
 						onClick={(): void => alert('Registration not yet open')}
@@ -23,7 +23,7 @@ function Lead(): React.ReactElement {
 					</Button>
 					<br />
 					<Button
-						variant='outline-light cta'
+						variant='outline-light'
 						className='mt-5'
 						onClick={(): void => alert('Registration not yet open')}
 					>
