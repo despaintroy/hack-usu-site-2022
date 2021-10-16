@@ -80,13 +80,19 @@
 }
 
 .schedule {
+	h3 {
+		text-align: center;
+		color: $white;
+		background-color: $blue-dark;
+		padding: 0.5rem;
+	}
 	.schedule-row {
 		padding: 0.5rem 0;
 		width: 100%;
 		display: flex;
+		border-bottom: 1px solid $gray-light;
 		.time {
-			min-width: 100px;
-			width: 10rem;
+			flex: 0 0 10rem;
 		}
 		.title {
 			font-weight: bold;

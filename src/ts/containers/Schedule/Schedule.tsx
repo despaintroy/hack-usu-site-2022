@@ -24,19 +24,19 @@ function Schedule(): React.ReactElement {
 
 	return (
 		<div className='schedule py-5'>
-			<Container className='narrow'>
+			<Container>
 				<Subheader
 					text='Schedule'
 					subtext='Tenative schedule for the 2022 HackUSU is subject to change'
 				/>
-				<Row className='gx-5 mx-auto'>
-					<Col md='auto' className='mb-5'>
+				<Row>
+					<Col md className='mb-5'>
 						<h3>
 							Friday, March 25<sup>th</sup>
 						</h3>
 						{renderTable(friSchedule)}
 					</Col>
-					<Col>
+					<Col md >
 						<h3>
 							Saturday, March 26<sup>th</sup>
 						</h3>
