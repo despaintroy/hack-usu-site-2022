@@ -1,5 +1,9 @@
 @import 'essentials';
 
+html {
+	scroll-padding: 3.2rem 0 0 0;
+}
+
 .full-height {
 	min-height: 100vh;
 }
@@ -26,6 +30,14 @@
 // ===================================
 //   CONTAINERS
 // ===================================
+
+.navigation {
+	box-shadow: 0 0 7px darken($aggie-blue, 8);
+	.navbar-brand {
+		font-weight: bold;
+		font-family: $roboto-slab;
+	}
+}
 
 .location {
 	.hh-banner {

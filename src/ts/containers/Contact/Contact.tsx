@@ -5,7 +5,7 @@ import Subheader from 'ts/components/Subheader'
 
 function Contact(): React.ReactElement {
 	return (
-		<div className='contact bg-primary py-5'>
+		<div className='contact bg-primary py-5' id='contact'>
 			<Container>
 				<Subheader
 					text='Contact'

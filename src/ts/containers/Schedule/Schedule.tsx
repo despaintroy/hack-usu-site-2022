@@ -23,7 +23,7 @@ function Schedule(): React.ReactElement {
 	}
 
 	return (
-		<div className='schedule py-5'>
+		<div className='schedule py-5' id='schedule'>
 			<Container>
 				<Subheader
 					text='Schedule'

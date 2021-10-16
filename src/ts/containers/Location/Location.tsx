@@ -8,7 +8,7 @@ const googleMapsLink =
 
 function Location(): React.ReactElement {
 	return (
-		<div className='location py-5 bg-primary'>
+		<div className='location py-5 bg-primary' id='location'>
 			<Container>
 				<Subheader
 					text='Location'

@@ -5,7 +5,7 @@ import Subheader from 'ts/components/Subheader'
 
 function About(): React.ReactElement {
 	return (
-		<div className='about py-5'>
+		<div className='about py-5' id='about'>
 			<Container>
 				<Subheader
 					text='About Hack USU'
