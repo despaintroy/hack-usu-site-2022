@@ -15,10 +15,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.waves.min.js"></script>
     <script>
-      var checkRender = setInterval(() => {
-        el = document.getElementById('vanta-bg')
-        if (el) {
-          clearInterval(checkRender);
+        setTimeout(() => {
           VANTA.WAVES({
           el: "#vanta-bg",
           mouseControls: true,
@@ -34,8 +31,7 @@
           zoom: 1.1,
           color: '#0c1b2b'
         })
-        }
-      }, 300);
+      }, 1000);
     </script>
   </head>
   <body>
