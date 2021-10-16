@@ -2,6 +2,7 @@ import 'sass/_app.scss'
 
 import React from 'react'
 
+import About from 'ts/containers/About'
 import Categories from 'ts/containers/Categories'
 import Contact from 'ts/containers/Contact'
 import Faq from 'ts/containers/Faq'
@@ -15,6 +16,7 @@ function App(): React.ReactElement {
 	return (
 		<div className='app'>
 			<Lead />
+			<About />
 			<Schedule />
 			<Location />
 			<Faq />
