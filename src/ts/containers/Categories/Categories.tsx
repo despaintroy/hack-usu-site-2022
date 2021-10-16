@@ -12,7 +12,9 @@ function Categories(): React.ReactElement {
 	]
 
 	const categoryTile = (title: string): React.ReactElement => (
-		<div className='category-tile'>{title}</div>
+		<div className='category-tile' key={title}>
+			{title}
+		</div>
 	)
 
 	return (

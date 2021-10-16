@@ -4,7 +4,7 @@ import { Button, Container } from 'react-bootstrap'
 
 function Lead(): React.ReactElement {
 	return (
-		<div className='bg-primary full-height lead'>
+		<div id='vanta-bg' className='bg-primary full-height lead'>
 			<Container>
 				<div>
 					<h1>Hack USU</h1>
