@@ -36,7 +36,7 @@ function Schedule(): React.ReactElement {
 						</h3>
 						{renderTable(friSchedule)}
 					</Col>
-					<Col md >
+					<Col md>
 						<h3>
 							Saturday, March 26<sup>th</sup>
 						</h3>

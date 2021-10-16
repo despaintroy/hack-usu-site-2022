@@ -3,18 +3,17 @@ import React from 'react'
 import { Container } from 'react-bootstrap'
 import Subheader from 'ts/components/Subheader'
 
-function Contact(): React.ReactElement {
+function Sponsors(): React.ReactElement {
 	return (
-		<div className='contact bg-primary py-5'>
+		<div className='sponsors py-5'>
 			<Container>
 				<Subheader
-					text='Contact'
-					subtext='Have a question? Send us a message!'
-					light
+					text='Sponsors'
+					subtext='Thanks to the amazing companies who sponsor HackUSU!'
 				/>
 			</Container>
 		</div>
 	)
 }
 
-export default Contact
+export default Sponsors

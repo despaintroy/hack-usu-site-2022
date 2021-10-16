@@ -9,7 +9,6 @@ function Categories(): React.ReactElement {
 		'Game Development',
 		'Hardware',
 		'AI & Machine Learning',
-		'Security',
 	]
 
 	const categoryTile = (title: string): React.ReactElement => (
