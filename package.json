@@ -18,7 +18,9 @@
     "react-bootstrap": "^1.6.4",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
+    "three": "^0.100.0",
     "typescript": "^4.4.4",
+    "vanta": "^0.5.21",
     "web-vitals": "^1.1.2"
   },
   "scripts": {
@@ -51,6 +53,7 @@
   "devDependencies": {
     "@types/bootstrap": "^5.1.6",
     "@types/react-bootstrap": "^0.32.26",
+    "@types/three": "^0.133.1",
     "gh-pages": "^3.2.3"
   }
 }

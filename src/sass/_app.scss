@@ -2,6 +2,7 @@
 
 html {
 	scroll-padding: 3.2rem 0 0 0;
+	scroll-behavior: smooth;
 }
 
 .full-height {
@@ -76,6 +77,9 @@ html {
 		font-family: $roboto-slab;
 		font-size: 12vw;
 		text-transform: uppercase;
+		@media (max-width: 576px) {
+			font-size: 6rem;
+		}
 	}
 	.date {
 		font-family: $roboto-slab;
@@ -90,7 +94,7 @@ html {
 		align-items: center;
 	}
 	.vanta-canvas {
-		opacity: 20%;
+		opacity: 30%;
 	}
 }
 
