@@ -1,10 +1,12 @@
 import React from 'react'
 
 import { Button, Container } from 'react-bootstrap'
+import Particles from 'react-particles-js'
 
 function Lead(): React.ReactElement {
 	return (
 		<div className='bg-primary full-height lead'>
+			<Particles />
 			<Container>
 				<div>
 					<h1>Hack USU</h1>
