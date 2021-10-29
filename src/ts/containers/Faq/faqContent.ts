@@ -16,7 +16,8 @@ export const faqList: FaqData[] = [
 	},
 	{
 		question: 'How does judging work?',
-		answer: 'All teams will submit a short video of their project on completion. The top teams from each category will present their project in front of judges before final selections are made. Winners will be announced at the award ceremony following the event.',
+		answer:
+			'All teams will submit a short video of their project on completion. The top teams from each category will present their project in front of judges before final selections are made. Winners will be announced at the award ceremony following the event.',
 	},
 	{
 		question: 'Does it cost anything to attend?',

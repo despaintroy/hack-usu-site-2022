@@ -8,6 +8,7 @@ function Categories(): React.ReactElement {
 		'General',
 		'Data Analytics & Visualization',
 		'Game Development',
+		'Privacy & Security',
 		'Hardware',
 		'AI & Machine Learning',
 	]
