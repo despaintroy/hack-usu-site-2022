@@ -6,6 +6,7 @@ import Subheader from 'ts/components/Subheader'
 function Categories(): React.ReactElement {
 	const categories = [
 		'General',
+		'Data Analytics & Visualization',
 		'Game Development',
 		'Hardware',
 		'AI & Machine Learning',
