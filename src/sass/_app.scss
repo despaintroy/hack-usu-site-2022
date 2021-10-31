@@ -115,10 +115,15 @@ html {
 		}
 		.title {
 			font-weight: bold;
+			font-size: 1.1rem;
 			color: $blue-darker;
 		}
 		.location {
-			color: $black-light;
+			color: $blue;
+			font-weight: bold;
+		}
+		.details {
+			color: $gray-darker;
 		}
 	}
 	// .schedule-row:nth-child(odd) {

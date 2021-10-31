@@ -9,7 +9,7 @@ function Lead(): React.ReactElement {
 				<div>
 					<h1>Hack USU</h1>
 					<div className='date'>
-						March 25–26
+						March 18–19
 						<br />
 						2022
 					</div>
@@ -27,7 +27,7 @@ function Lead(): React.ReactElement {
 						className='mt-5'
 						onClick={(): void => alert('Registration not yet open')}
 					>
-						Join Slack
+						Join Discord
 					</Button>
 				</div>
 			</Container>

@@ -7,7 +7,7 @@ export const faqList: FaqData[] = [
 	{
 		question: 'Can I start now?',
 		answer:
-			"You can't use any code that was written before the start of the hackathon. However, we encourage you to begin thinking of ideas now!",
+			"You can't use any code that was written before the start of the hackathon. However, you can begin thinking of ideas and forming teams now!",
 	},
 	{
 		question: 'Who can attend HackUSU?',

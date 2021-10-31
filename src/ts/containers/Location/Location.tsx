@@ -32,8 +32,8 @@ function Location(): React.ReactElement {
 						</Button>
 						<h3 className='mt-5'>Parking</h3>
 						<p>
-							Parking is available after 5:00pm in any of the areas marked on
-							the map.
+							There will be parking available for those driving to USU campus.
+							More details will be available closer to the event.
 						</p>
 					</Col>
 				</Row>

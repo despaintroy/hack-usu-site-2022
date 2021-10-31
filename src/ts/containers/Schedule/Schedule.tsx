@@ -15,6 +15,7 @@ function Schedule(): React.ReactElement {
 						<div>
 							<div className='title'>{s.title}</div>
 							<div className='location'>{s.location}</div>
+							<div className='details'>{s.details}</div>
 						</div>
 					</div>
 				))}
@@ -27,18 +28,18 @@ function Schedule(): React.ReactElement {
 			<Container>
 				<Subheader
 					text='Schedule'
-					subtext='Tenative schedule for the 2022 HackUSU is subject to change'
+					subtext="Tenative schedule is subject to change. Check back closer to the event for information on workshops we'll be offering!"
 				/>
 				<Row>
 					<Col md className='mb-5'>
 						<h3>
-							Friday, March 25<sup>th</sup>
+							Friday, March 18<sup>th</sup>
 						</h3>
 						{renderTable(friSchedule)}
 					</Col>
 					<Col md>
 						<h3>
-							Saturday, March 26<sup>th</sup>
+							Saturday, March 19<sup>th</sup>
 						</h3>
 						{renderTable(satSchedule)}
 					</Col>
