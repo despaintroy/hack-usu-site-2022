@@ -2,20 +2,14 @@ import React from 'react'
 
 import { Container } from 'react-bootstrap'
 import Subheader from 'ts/components/Subheader'
+import { CategoriesData, categoriesList } from './categoriesContent'
 
 function Categories(): React.ReactElement {
-	const categories = [
-		'General',
-		'Data Analytics & Visualization',
-		'Game Development',
-		'Privacy & Security',
-		'Hardware',
-		'AI & Machine Learning',
-	]
 
-	const categoryTile = (title: string): React.ReactElement => (
-		<div className='category-tile' key={title}>
-			{title}
+	const categoryTile = (category: CategoriesData): React.ReactElement => (
+		<div className='category-tile' key={category.title}>
+			<div className='title'>{category.title}</div>
+			<div className='description'>{category.description}</div>
 		</div>
 	)
 
@@ -29,7 +23,7 @@ function Categories(): React.ReactElement {
 					one category to enter your project in.
 				</p>
 				<div className='tile-container'>
-					{categories.map(c => categoryTile(c))}
+					{categoriesList.map(c => categoryTile(c))}
 				</div>
 			</Container>
 		</div>
