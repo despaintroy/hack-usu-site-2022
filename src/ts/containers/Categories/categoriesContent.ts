@@ -8,13 +8,19 @@ export const categoriesList: CategoriesData[] = [
 	{
 		title: 'General',
 		description: "Projects that don't fit the other categories!",
-		ideas: [],
+		ideas: [
+			'Weather app that displays weather info from a free API',
+			'Budgeting app for planning and tracking spending',
+		],
 	},
 	{
 		title: 'Data Analytics & Visualization',
 		description:
-			'Demonstrate ways of gaining insights or displaying data in a creative way.',
-		ideas: [],
+			'Demonstrate ways of gaining insights or displaying data in a creative way. Check out data.gov for datasets and ideas!',
+		ideas: [
+			'Create an interactive visualization of one of the datasets on www.data.gov',
+			'Show a real-time stock market tracker',
+		],
 	},
 	{
 		title: 'Game Development',
