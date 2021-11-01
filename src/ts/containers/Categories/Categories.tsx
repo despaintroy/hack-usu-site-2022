@@ -5,7 +5,6 @@ import Subheader from 'ts/components/Subheader'
 import { CategoriesData, categoriesList } from './categoriesContent'
 
 function Categories(): React.ReactElement {
-
 	const categoryTile = (category: CategoriesData): React.ReactElement => (
 		<div className='category-tile' key={category.title}>
 			<div className='title'>{category.title}</div>
@@ -14,7 +13,9 @@ function Categories(): React.ReactElement {
 				<details className='ideas'>
 					<summary>Project Ideas</summary>
 					<ul>
-						{category.ideas.map((suggestion: string, index: number) => (<li key={index}>{suggestion}</li>))}
+						{category.ideas.map((suggestion: string, index: number) => (
+							<li key={index}>{suggestion}</li>
+						))}
 					</ul>
 				</details>
 			)}
