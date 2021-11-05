@@ -1,7 +1,8 @@
 import React from 'react'
 
-import { Container } from 'react-bootstrap'
+import { Button, Container } from 'react-bootstrap'
 import Subheader from 'ts/components/Subheader'
+import { hackUSUEmail } from 'ts/utils/constants'
 
 function Contact(): React.ReactElement {
 	return (
@@ -9,9 +10,14 @@ function Contact(): React.ReactElement {
 			<Container>
 				<Subheader
 					text='Contact'
-					subtext='Have a question? Send us a message!'
+					subtext='Have a question or want to work with us? Let us know!'
 					light
 				/>
+				<div className='text-center'>
+					<Button variant='light' href={`mailto:${hackUSUEmail}`}>
+						{hackUSUEmail}
+					</Button>
+				</div>
 			</Container>
 		</div>
 	)

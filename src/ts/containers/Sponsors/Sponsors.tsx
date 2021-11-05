@@ -16,8 +16,8 @@ function Sponsors(): React.ReactElement {
 					<Alert variant='primary'>
 						<Alert.Heading>Want to sponsor us?</Alert.Heading>
 						To discuss sponsorship options, please contact us at{' '}
-						<a href={hackUSUEmail}>{hackUSUEmail}</a>. Thank you for your
-						interest!
+						<a href={`mailto:${hackUSUEmail}`}>{hackUSUEmail}</a>. Thank you for
+						your interest!
 					</Alert>
 				</p>
 			</Container>

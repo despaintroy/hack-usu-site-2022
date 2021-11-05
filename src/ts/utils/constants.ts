@@ -1,1 +1,1 @@
-export const hackUSUEmail = 'hackusu@outlook.com'
+export const hackUSUEmail = 'hackusu@aggies.usu.edu'
