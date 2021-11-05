@@ -25,7 +25,7 @@ function Categories(): React.ReactElement {
 	return (
 		<div className='categories py-5' id='prizes'>
 			<Container>
-				<Subheader text='Prze Categories' />
+				<Subheader text='Prize Categories' />
 				<p className='fs-5'>
 					You can start thinking of project ideas before the event, or
 					brainstorm with a team after arriving. We&apos;ll ask you to choose
