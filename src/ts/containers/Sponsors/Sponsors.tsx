@@ -10,16 +10,19 @@ function Sponsors(): React.ReactElement {
 			<Container>
 				<Subheader
 					text='Sponsors'
-					subtext='Thanks to the amazing companies who sponsor HackUSU!'
+					subtext='Thanks to the amazing companies and organizations who sponsor HackUSU!'
 				/>
-				<p>
-					<Alert variant='primary'>
-						<Alert.Heading>Want to sponsor us?</Alert.Heading>
-						To discuss sponsorship options, please contact us at{' '}
-						<a href={`mailto:${hackUSUEmail}`}>{hackUSUEmail}</a>. Thank you for
-						your interest!
-					</Alert>
-				</p>
+				<div className='sponsors-list'>
+					<img
+						src={process.env.PUBLIC_URL + '/sponsors/college-of-science.png'}
+					/>
+				</div>
+				<Alert variant='primary'>
+					<Alert.Heading>Want to sponsor us?</Alert.Heading>
+					To discuss sponsorship options, please contact us at{' '}
+					<a href={`mailto:${hackUSUEmail}`}>{hackUSUEmail}</a>. Thank you for
+					your interest!
+				</Alert>
 			</Container>
 		</div>
 	)
