@@ -1,5 +1,12 @@
 {
   "hosting": {
+    "redirects": [
+      {
+        "source": "/hack-usu-site-2022/:matched*",
+        "destination": "/:matched*",
+        "type": 301
+      }
+    ],
     "public": "build",
     "ignore": [
       "firebase.json",
