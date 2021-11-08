@@ -21,19 +21,22 @@ function Location(): React.ReactElement {
 				/>
 				<Row>
 					<Col sm={true} className='mb-4'>
-						<div className='placeholder map w-100'>
-							Campus map around Huntsman Hall with marked parking areas
-						</div>
-					</Col>
-					<Col sm={true}>
 						<h3>Huntsman Hall</h3>
+						<p>
+							Huntsman Hall is located at the intersection of E 400 N (hwy 89)
+							and Champ Drive in Logan, UT.
+						</p>
+						<p>Check in will be at the North entrance.</p>
 						<Button variant='light' href={googleMapsLink} target='_blank'>
 							Open in Google Maps &nbsp;&rarr;
 						</Button>
-						<h3 className='mt-5'>Parking</h3>
+					</Col>
+					<Col sm={true}>
+						<h3>Parking</h3>
 						<p>
-							There will be parking available for those driving to USU campus.
-							More details will be available closer to the event.
+							Overnight parking for individual vehicles and busses will be
+							available at HackUSU. We will send provide additional details
+							closer to the event.
 						</p>
 					</Col>
 				</Row>
