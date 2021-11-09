@@ -26,12 +26,10 @@ function Categories(): React.ReactElement {
 	return (
 		<div className='categories pt-5' id='prizes'>
 			<Container>
-				<Subheader text='Prize Categories' />
-				<p className='fs-5'>
-					You can start thinking of project ideas before the event, or
-					brainstorm with a team after arriving. We&apos;ll ask you to choose
-					one category to enter your project in.
-				</p>
+				<Subheader
+					text='Prize Categories'
+					subtext='You can start thinking of project ideas before the event, or brainstorm with a team after arriving!'
+				/>
 				<div className='tile-container'>
 					{categoriesList.map(c => categoryTile(c))}
 				</div>

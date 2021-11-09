@@ -24,7 +24,7 @@ export const categoriesList: CategoriesData[] = [
 	{
 		title: 'Privacy & Security',
 		description:
-			'Show us your great ideas related to user privacy, improved authentication methods, or system security.',
+			'Deomonstrate improvements to user privacy, authentication methods, or system security.',
 		ideas: [
 			'Design a more secure user authentication system',
 			"Create a tool to help users test their passwords' strength",
@@ -43,7 +43,7 @@ export const categoriesList: CategoriesData[] = [
 	},
 	{
 		title: 'Health & Fitness',
-		description: '',
+		description: 'All projects related to healthcare or personal fitness',
 		ideas: [],
 	},
 	{
