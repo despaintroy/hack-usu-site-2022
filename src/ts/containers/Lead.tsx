@@ -1,6 +1,9 @@
 import React from 'react'
 
-import { Button, Container } from 'react-bootstrap'
+import {
+	Button,
+	Container,
+} from 'react-bootstrap'
 import Particles from 'react-particles-js'
 import { registrationLink } from 'ts/utils/constants'
 
@@ -23,7 +26,7 @@ function Lead(): React.ReactElement {
 						href={registrationLink}
 						target='_blank'
 					>
-						Register
+						Register Now
 					</Button>
 					<br />
 					{/* <Button variant='outline-light' className='mt-5' href={discordLink}>
