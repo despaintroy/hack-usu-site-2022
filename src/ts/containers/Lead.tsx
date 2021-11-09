@@ -1,9 +1,6 @@
 import React from 'react'
 
-import {
-	Button,
-	Container,
-} from 'react-bootstrap'
+import { Button } from 'react-bootstrap'
 import Particles from 'react-particles-js'
 import { registrationLink } from 'ts/utils/constants'
 
@@ -11,7 +8,7 @@ function Lead(): React.ReactElement {
 	return (
 		<div className='bg-primary full-height lead'>
 			<Particles />
-			<Container>
+			<div className='lead-container'>
 				<div>
 					<h1>Hack USU</h1>
 					<div className='date'>
@@ -33,7 +30,7 @@ function Lead(): React.ReactElement {
 						Join Discord
 					</Button> */}
 				</div>
-			</Container>
+			</div>
 		</div>
 	)
 }
