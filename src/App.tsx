@@ -21,8 +21,8 @@ function App(): React.ReactElement {
 			<About />
 			<Schedule />
 			<Location />
-			<Faq />
 			<Categories />
+			<Faq />
 			<Contact />
 			<Sponsors />
 			<Footer />

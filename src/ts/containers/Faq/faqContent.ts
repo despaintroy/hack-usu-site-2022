@@ -7,12 +7,17 @@ export const faqList: FaqData[] = [
 	{
 		question: 'Can I start now?',
 		answer:
-			"You can't use any code that was written before the start of the hackathon. However, we encourage you to begin thinking of ideas now!",
+			"You can't use any code that was written before the start of the hackathon. However, you can begin thinking of ideas and forming teams now!",
 	},
 	{
 		question: 'Who can attend HackUSU?',
 		answer:
-			'Students from all schools are welcome! You must currently be a university or college student, or have graduated in the last 12 months. There is no restriction on major.',
+			'All university or college students and high school seniors are welcome! Participants must be current students or have graduated in the last 12 months. There is no restriction on major.',
+	},
+	{
+		question: 'How does judging work?',
+		answer:
+			'All teams will submit a short video of their project on completion. The top teams from each category will present their project in front of judges before final selections are made. Winners will be announced at the award ceremony following the event.',
 	},
 	{
 		question: 'Does it cost anything to attend?',

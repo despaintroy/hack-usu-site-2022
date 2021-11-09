@@ -8,9 +8,40 @@ function About(): React.ReactElement {
 		<div className='about py-5' id='about'>
 			<Container>
 				<Subheader
-					text='About Hack USU'
-					subtext='HackUSU is an annual event with a 24-hr team coding competition, guest speakers, free food, and more!'
+					text='What is HackUSU'
+					subtext='HackUSU is an annual 24-hr team coding competition with workshops, free food, and more!'
 				/>
+				<div className='feature-container'>
+					<div className='feature'>
+						<h3>24-hr Hackathon</h3>
+						<p>
+							HackUSU is Utah&apos;s largest student hackathon. All college
+							students and high school seniors are invited!
+						</p>
+					</div>
+					<div className='feature'>
+						<h3>Workshops</h3>
+						<p>
+							We&apos;ll have several great workshops on a variety of topics
+							Saturday morning! Check back closer to the event for more details.
+						</p>
+					</div>
+					<div className='feature'>
+						<h3>Networking</h3>
+						<p>
+							Meet with our sponsors and potential employers. There will be many
+							industry experts to learn from and talk about their companies!
+						</p>
+					</div>
+					<div className='feature'>
+						<h3>Free Food</h3>
+						<p>
+							You&apos;ll get dinner on Friday, and breakfast, lunch, and dinner
+							on Saturday. There will also be plenty of snacks available the
+							entire event!
+						</p>
+					</div>
+				</div>
 			</Container>
 		</div>
 	)

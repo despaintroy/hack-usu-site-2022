@@ -3,31 +3,37 @@ import React from 'react'
 import { Container } from 'react-bootstrap'
 import Subheader from 'ts/components/Subheader'
 
-function Categories(): React.ReactElement {
-	const categories = [
-		'General',
-		'Game Development',
-		'Hardware',
-		'AI & Machine Learning',
-	]
+import { CategoriesData, categoriesList } from './categoriesContent'
 
-	const categoryTile = (title: string): React.ReactElement => (
-		<div className='category-tile' key={title}>
-			{title}
+function Categories(): React.ReactElement {
+	const categoryTile = (category: CategoriesData): React.ReactElement => (
+		<div className='category-tile rounded' key={category.title}>
+			<div className='title'>{category.title}</div>
+			<div className='description'>{category.description}</div>
+			{/* {category.ideas.length > 0 && (
+				<details className='ideas'>
+					<summary>Project Ideas</summary>
+					<ul>
+						{category.ideas.map((suggestion: string, index: number) => (
+							<li key={index}>{suggestion}</li>
+						))}
+					</ul>
+				</details>
+			)} */}
 		</div>
 	)
 
 	return (
-		<div className='categories py-5' id='prizes'>
-			<Container className='narrow'>
-				<Subheader text='Prze Categories' />
+		<div className='categories pt-5' id='prizes'>
+			<Container>
+				<Subheader text='Prize Categories' />
 				<p className='fs-5'>
 					You can start thinking of project ideas before the event, or
 					brainstorm with a team after arriving. We&apos;ll ask you to choose
 					one category to enter your project in.
 				</p>
 				<div className='tile-container'>
-					{categories.map(c => categoryTile(c))}
+					{categoriesList.map(c => categoryTile(c))}
 				</div>
 			</Container>
 		</div>

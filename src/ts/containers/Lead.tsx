@@ -2,6 +2,7 @@ import React from 'react'
 
 import { Button, Container } from 'react-bootstrap'
 import Particles from 'react-particles-js'
+import { registrationLink } from 'ts/utils/constants'
 
 function Lead(): React.ReactElement {
 	return (
@@ -11,7 +12,7 @@ function Lead(): React.ReactElement {
 				<div>
 					<h1>Hack USU</h1>
 					<div className='date'>
-						March 25–26
+						March 18–19
 						<br />
 						2022
 					</div>
@@ -19,18 +20,15 @@ function Lead(): React.ReactElement {
 						variant='success fw-bold text-uppercase'
 						size='lg'
 						className='mt-5 px-5'
-						onClick={(): void => alert('Registration not yet open')}
+						href={registrationLink}
+						target='_blank'
 					>
 						Register
 					</Button>
 					<br />
-					<Button
-						variant='outline-light'
-						className='mt-5'
-						onClick={(): void => alert('Registration not yet open')}
-					>
-						Join Slack
-					</Button>
+					{/* <Button variant='outline-light' className='mt-5' href={discordLink}>
+						Join Discord
+					</Button> */}
 				</div>
 			</Container>
 		</div>
