@@ -1,5 +1,3 @@
-import 'sass/_app.scss'
-
 import React from 'react'
 
 import Navigation from 'Navigation'
