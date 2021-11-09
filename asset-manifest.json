@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/hack-usu-site-2022/static/css/main.314cc92b.chunk.css",
-    "main.js": "/hack-usu-site-2022/static/js/main.e2035587.chunk.js",
-    "main.js.map": "/hack-usu-site-2022/static/js/main.e2035587.chunk.js.map",
+    "main.js": "/hack-usu-site-2022/static/js/main.e99a78f1.chunk.js",
+    "main.js.map": "/hack-usu-site-2022/static/js/main.e99a78f1.chunk.js.map",
     "runtime-main.js": "/hack-usu-site-2022/static/js/runtime-main.85408936.js",
     "runtime-main.js.map": "/hack-usu-site-2022/static/js/runtime-main.85408936.js.map",
     "static/js/2.95092a3b.chunk.js": "/hack-usu-site-2022/static/js/2.95092a3b.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.85408936.js",
     "static/js/2.95092a3b.chunk.js",
     "static/css/main.314cc92b.chunk.css",
-    "static/js/main.e2035587.chunk.js"
+    "static/js/main.e99a78f1.chunk.js"
   ]
 }
