@@ -188,9 +188,11 @@ html {
 		padding-bottom: 2rem;
 		display: flex;
 		justify-content: space-evenly;
+		flex-wrap: wrap;
 		img {
 			max-width: 15rem;
 			max-height: 6rem;
+			margin: 1rem;
 		}
 	}
 }
