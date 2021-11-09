@@ -6,17 +6,9 @@ export interface CategoriesData {
 
 export const categoriesList: CategoriesData[] = [
 	{
-		title: 'General',
-		description: "Projects that don't fit the other categories!",
-		ideas: [
-			'Weather app that displays weather info from a free API',
-			'Budgeting app for planning and tracking spending',
-		],
-	},
-	{
 		title: 'Data Analytics & Visualization',
 		description:
-			'Demonstrate ways of gaining insights or displaying data in a creative way. Check out data.gov for datasets and ideas!',
+			'Demonstrate ways of gaining insights or displaying data in a creative way',
 		ideas: [
 			'Create an interactive visualization of one of the datasets on www.data.gov',
 			'Show a real-time stock market tracker',
@@ -48,5 +40,18 @@ export const categoriesList: CategoriesData[] = [
 		title: 'AI & Machine Learning',
 		description: 'Show us how your program learns to solve a problem!',
 		ideas: [],
+	},
+	{
+		title: 'Health & Fitness',
+		description: '',
+		ideas: [],
+	},
+	{
+		title: 'General',
+		description: "Projects that don't fit the other categories!",
+		ideas: [
+			'Weather app that displays weather info from a free API',
+			'Budgeting app for planning and tracking spending',
+		],
 	},
 ]
