@@ -28,8 +28,9 @@
     "lint": "eslint --ext js,ts,jsx,tsx src",
     "style": "prettier --write 'src/**'",
     "workup": "npm run style && eslint --fix --ext js,ts,jsx,tsx src",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "predeploy": "npm run build && npm run add-domain",
+    "deploy": "gh-pages -d build",
+    "add-domain": "echo \"hackusu.com\" > build/CNAME"
   },
   "eslintConfig": {
     "extends": [
