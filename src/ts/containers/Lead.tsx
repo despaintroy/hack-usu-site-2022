@@ -48,6 +48,11 @@ function Lead(): React.ReactElement {
 						className='mt-5 px-5'
 						href={registrationLink}
 						target='_blank'
+						onClick={(): void =>
+							gtag('event', 'sign_up', {
+								method: 'Google',
+							})
+						}
 					>
 						Register Now
 					</Button>
