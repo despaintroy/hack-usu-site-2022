@@ -126,8 +126,12 @@ html {
 	.date {
 		font-family: $roboto-slab;
 		font-weight: bold;
+		font-size: 4vw;
 		text-transform: uppercase;
-		font-size: 2rem;
+		padding-top: 1rem;
+		@media (max-width: 576px) {
+			font-size: 3rem;
+		}
 	}
 	.lead-container {
 		position: absolute;
@@ -137,12 +141,6 @@ html {
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		left: 0;
-		top: 0;
-	}
-	.tsparticles-canvas-el {
-		opacity: 0.3;
-		position: absolute;
 		left: 0;
 		top: 0;
 	}

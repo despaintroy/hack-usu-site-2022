@@ -7,7 +7,33 @@ import { registrationLink } from 'ts/utils/constants'
 function Lead(): React.ReactElement {
 	return (
 		<div className='bg-primary full-height lead'>
-			<Particles />
+			<Particles
+				style={{
+					position: 'absolute',
+					left: '0',
+					top: '0',
+				}}
+				params={{
+					particles: {
+						number: {
+							value: 100,
+							density: {
+								enable: true,
+							},
+						},
+						line_linked: {
+							enable: true,
+							opacity: 0.2,
+						},
+						move: {
+							speed: 1.5,
+						},
+						opacity: {
+							value: 0.2,
+						},
+					},
+				}}
+			/>
 			<div className='lead-container'>
 				<div>
 					<h1>Hack USU</h1>
