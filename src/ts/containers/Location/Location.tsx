@@ -20,7 +20,7 @@ function Location(): React.ReactElement {
 					className='hh-banner'
 				/>
 				<Row>
-					<Col sm={true} className='mb-4'>
+					<Col sm={true} className='mb-5'>
 						<h3>Huntsman Hall</h3>
 						<p>
 							Huntsman Hall is located at the intersection of E 400 N (hwy 89)

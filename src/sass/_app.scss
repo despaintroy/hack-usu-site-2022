@@ -128,10 +128,14 @@ html {
 		font-weight: bold;
 		font-size: 4vw;
 		text-transform: uppercase;
-		padding-top: 1rem;
+		margin-top: 1rem;
 		@media (max-width: 576px) {
 			font-size: 3rem;
 		}
+	}
+	.countdown {
+		font-family: $bitwise;
+		margin-top: 2rem;
 	}
 	.lead-container {
 		position: absolute;

@@ -12,6 +12,12 @@ function Sponsors(): React.ReactElement {
 					text='Sponsors'
 					subtext='Thanks to the amazing companies and organizations who sponsor HackUSU!'
 				/>
+				<Alert variant='primary' className='mb-5'>
+					<Alert.Heading>Want to sponsor us?</Alert.Heading>
+					To discuss sponsorship options, please contact us at{' '}
+					<a href={`mailto:${hackUSUEmail}`}>{hackUSUEmail}</a>. Thank you for
+					your interest!
+				</Alert>
 				<div className='sponsors-list'>
 					<div>
 						<img
@@ -24,12 +30,6 @@ function Sponsors(): React.ReactElement {
 						/>
 					</div>
 				</div>
-				<Alert variant='primary'>
-					<Alert.Heading>Want to sponsor us?</Alert.Heading>
-					To discuss sponsorship options, please contact us at{' '}
-					<a href={`mailto:${hackUSUEmail}`}>{hackUSUEmail}</a>. Thank you for
-					your interest!
-				</Alert>
 			</Container>
 		</div>
 	)

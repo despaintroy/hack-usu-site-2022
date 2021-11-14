@@ -3,8 +3,13 @@ import React from 'react'
 import { Button } from 'react-bootstrap'
 import Particles from 'react-particles-js'
 import { registrationLink } from 'ts/utils/constants'
+import { getDuration } from 'ts/utils/countdown'
 
 function Lead(): React.ReactElement {
+	const [duration, setDuration] = React.useState(getDuration())
+
+	setInterval(() => setDuration(getDuration()), 1000)
+
 	return (
 		<div className='bg-primary full-height lead'>
 			<Particles
@@ -42,10 +47,14 @@ function Lead(): React.ReactElement {
 						<br />
 						2022
 					</div>
+					<p className='countdown'>
+						{duration.days} d, {duration.hours} h, {duration.minutes} m,{' '}
+						{duration.seconds} s
+					</p>
 					<Button
 						variant='success fw-bold text-uppercase'
 						size='lg'
-						className='mt-5 px-5'
+						className='mt-4 px-5'
 						href={registrationLink}
 						target='_blank'
 						onClick={(): void =>

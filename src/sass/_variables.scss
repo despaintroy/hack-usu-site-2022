@@ -4,8 +4,14 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab:wght@200;400&display=swap');
 
+@font-face {
+	font-family: 'Bitwise';
+	src: local('Bitwise'), url(./fonts/bitwise.ttf) format('truetype');
+}
+
 $roboto-slab: 'Roboto Slab', serif;
 $roboto: 'Roboto', serif;
+$bitwise: 'Bitwise', serif;
 
 // ===================================
 //   COLORS

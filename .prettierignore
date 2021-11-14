@@ -4,6 +4,7 @@
 *.snap
 *.svg
 *.txt
+*.ttf
 
 .DS_Store
 .env
