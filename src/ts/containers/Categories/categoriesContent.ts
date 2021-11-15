@@ -1,4 +1,5 @@
 export interface CategoriesData {
+	materialIcon: string
 	title: string
 	description: string
 	ideas: string[]
@@ -7,6 +8,7 @@ export interface CategoriesData {
 export const categoriesList: CategoriesData[] = [
 	{
 		title: 'Data Analytics & Visualization',
+		materialIcon: 'insights',
 		description:
 			'Demonstrate ways of gaining insights or displaying data in a creative way',
 		ideas: [
@@ -16,6 +18,7 @@ export const categoriesList: CategoriesData[] = [
 	},
 	{
 		title: 'Game Development',
+		materialIcon: 'sports_esports',
 		description: 'Any game. Any technology.',
 		ideas: [
 			'Rewrite a simple classic game to have multi-player web functionality',
@@ -23,6 +26,7 @@ export const categoriesList: CategoriesData[] = [
 	},
 	{
 		title: 'Privacy & Security',
+		materialIcon: 'lock',
 		description:
 			'Deomonstrate improvements to user privacy, authentication methods, or system security.',
 		ideas: [
@@ -33,21 +37,25 @@ export const categoriesList: CategoriesData[] = [
 	},
 	{
 		title: 'Hardware',
+		materialIcon: 'precision_manufacturing',
 		description: 'All projects focused on physical hardware.',
 		ideas: [],
 	},
 	{
 		title: 'AI & Machine Learning',
+		materialIcon: 'lightbulb',
 		description: 'Show us how your program learns to solve a problem!',
 		ideas: [],
 	},
 	{
 		title: 'Health & Fitness',
+		materialIcon: 'fitness_center',
 		description: 'All projects related to healthcare or personal fitness',
 		ideas: [],
 	},
 	{
 		title: 'General',
+		materialIcon: 'code',
 		description: "Projects that don't fit the other categories!",
 		ideas: [
 			'Weather app that displays weather info from a free API',

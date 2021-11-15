@@ -8,11 +8,12 @@ function About(): React.ReactElement {
 		<div className='about py-5' id='about'>
 			<Container>
 				<Subheader
-					text='What is HackUSU'
+					text='What is Hack USU?'
 					subtext='HackUSU is an annual 24-hr team coding competition with workshops, free food, and more!'
 				/>
 				<div className='feature-container'>
 					<div className='feature'>
+						<span className='material-icons icon'>schedule</span>
 						<h3>24-hr Hackathon</h3>
 						<p>
 							HackUSU is Utah&apos;s largest student hackathon. All college
@@ -20,6 +21,7 @@ function About(): React.ReactElement {
 						</p>
 					</div>
 					<div className='feature'>
+						<span className='material-icons icon'>code</span>
 						<h3>Workshops</h3>
 						<p>
 							We&apos;ll have several great workshops on a variety of topics
@@ -27,6 +29,7 @@ function About(): React.ReactElement {
 						</p>
 					</div>
 					<div className='feature'>
+						<span className='material-icons icon'>work_outline</span>
 						<h3>Networking</h3>
 						<p>
 							Meet with our sponsors and potential employers. There will be many
@@ -34,6 +37,7 @@ function About(): React.ReactElement {
 						</p>
 					</div>
 					<div className='feature'>
+						<span className='material-icons icon'>restaurant</span>
 						<h3>Free Food</h3>
 						<p>
 							You&apos;ll get dinner on Friday, and breakfast, lunch, and dinner
