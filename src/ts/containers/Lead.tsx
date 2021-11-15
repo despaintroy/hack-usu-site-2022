@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 
 import { Button } from 'react-bootstrap'
 import Particles from 'react-particles-js'
@@ -8,8 +8,11 @@ import { getDuration } from 'ts/utils/countdown'
 function Lead(): React.ReactElement {
 	const [duration, setDuration] = React.useState(getDuration())
 
-	setInterval(() => setDuration(getDuration()), 1000)
-
+	useEffect(() => {
+		const interval = setInterval(() => setDuration(getDuration()), 1000)
+		return () => clearInterval(interval)
+	}, []);
+	
 	return (
 		<div className='bg-primary full-height lead'>
 			<Particles
