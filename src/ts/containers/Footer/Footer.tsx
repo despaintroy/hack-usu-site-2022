@@ -13,6 +13,11 @@ function Footer(): React.ReactElement {
 					className='px-5'
 					href={registrationLink}
 					target='_blank'
+					onClick={(): void =>
+						gtag('event', 'sign_up', {
+							method: 'Google',
+						})
+					}
 				>
 					Register Now
 				</Button>

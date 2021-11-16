@@ -11,8 +11,8 @@ function Lead(): React.ReactElement {
 	useEffect(() => {
 		const interval = setInterval(() => setDuration(getDuration()), 1000)
 		return () => clearInterval(interval)
-	}, []);
-	
+	}, [])
+
 	return (
 		<div className='bg-primary full-height lead'>
 			<Particles
