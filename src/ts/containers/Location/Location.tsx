@@ -35,8 +35,8 @@ function Location(): React.ReactElement {
 						<h3>Parking</h3>
 						<p>
 							Overnight parking for individual vehicles and busses will be
-							available at HackUSU. We will send provide additional details
-							closer to the event.
+							available at HackUSU. We will provide additional details closer to
+							the event.
 						</p>
 					</Col>
 				</Row>
