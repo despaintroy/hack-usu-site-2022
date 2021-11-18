@@ -55,6 +55,11 @@ html {
 			}
 		}
 	}
+	.discord-invite {
+		background-color: $black-light !important;
+		color: $white !important;
+		max-width: 30rem;
+	}
 }
 
 .location {
