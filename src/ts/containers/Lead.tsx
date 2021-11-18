@@ -69,6 +69,10 @@ function Lead(): React.ReactElement {
 						Register for Free
 					</Button>
 					<br />
+					<Button variant='light' className='mt-3'>
+						Join the Discord
+					</Button>
+					<br />
 					{/* <Button variant='outline-light' className='mt-5' href={discordLink}>
 						Join Discord
 					</Button> */}

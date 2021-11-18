@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { Container } from 'react-bootstrap'
+import { Alert, Button, Container } from 'react-bootstrap'
 import Subheader from 'ts/components/Subheader'
 
 function About(): React.ReactElement {
@@ -52,6 +52,18 @@ function About(): React.ReactElement {
 						</div>
 					</div>
 				</div>
+
+				<Alert show={true} className='discord-invite mx-auto mt-3'>
+					<Alert.Heading>Join us on Discord!</Alert.Heading>
+					<p>
+						Join the discord to stay up to date with the latest announcements
+						before the event.
+					</p>
+					<hr />
+					<Button variant='success w-100' href='https://discord.gg/mDUKePRGx7'>
+						Join Discord
+					</Button>
+				</Alert>
 			</Container>
 		</div>
 	)

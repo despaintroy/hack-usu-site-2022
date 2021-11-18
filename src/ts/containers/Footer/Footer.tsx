@@ -9,8 +9,7 @@ function Footer(): React.ReactElement {
 			<Container className='text-center'>
 				<Button
 					variant='success fw-bold text-uppercase'
-					size='lg'
-					className='px-5'
+					className='mx-2'
 					href={registrationLink}
 					target='_blank'
 					onClick={(): void =>
@@ -20,6 +19,14 @@ function Footer(): React.ReactElement {
 					}
 				>
 					Register for Free
+				</Button>
+				<Button
+					className='mx-2'
+					variant='success fw-bold text-uppercase'
+					href='https://discord.gg/mDUKePRGx7'
+					target='_blank'
+				>
+					Join Discord
 				</Button>
 			</Container>
 		</div>
