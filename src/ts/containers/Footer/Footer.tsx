@@ -19,7 +19,7 @@ function Footer(): React.ReactElement {
 						})
 					}
 				>
-					Register Now
+					Register for Free
 				</Button>
 			</Container>
 		</div>
