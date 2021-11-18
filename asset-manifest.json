@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "https://www.hackusu.com/static/css/main.3d5bc047.chunk.css",
-    "main.js": "https://www.hackusu.com/static/js/main.2dc4d8f0.chunk.js",
-    "main.js.map": "https://www.hackusu.com/static/js/main.2dc4d8f0.chunk.js.map",
+    "main.css": "https://www.hackusu.com/static/css/main.141d1b4d.chunk.css",
+    "main.js": "https://www.hackusu.com/static/js/main.197b8a85.chunk.js",
+    "main.js.map": "https://www.hackusu.com/static/js/main.197b8a85.chunk.js.map",
     "runtime-main.js": "https://www.hackusu.com/static/js/runtime-main.e79c9c49.js",
     "runtime-main.js.map": "https://www.hackusu.com/static/js/runtime-main.e79c9c49.js.map",
-    "static/js/2.b2a4e79b.chunk.js": "https://www.hackusu.com/static/js/2.b2a4e79b.chunk.js",
-    "static/js/2.b2a4e79b.chunk.js.map": "https://www.hackusu.com/static/js/2.b2a4e79b.chunk.js.map",
+    "static/js/2.7e5ec62c.chunk.js": "https://www.hackusu.com/static/js/2.7e5ec62c.chunk.js",
+    "static/js/2.7e5ec62c.chunk.js.map": "https://www.hackusu.com/static/js/2.7e5ec62c.chunk.js.map",
     "index.html": "https://www.hackusu.com/index.html",
-    "static/css/main.3d5bc047.chunk.css.map": "https://www.hackusu.com/static/css/main.3d5bc047.chunk.css.map",
-    "static/js/2.b2a4e79b.chunk.js.LICENSE.txt": "https://www.hackusu.com/static/js/2.b2a4e79b.chunk.js.LICENSE.txt",
+    "static/css/main.141d1b4d.chunk.css.map": "https://www.hackusu.com/static/css/main.141d1b4d.chunk.css.map",
+    "static/js/2.7e5ec62c.chunk.js.LICENSE.txt": "https://www.hackusu.com/static/js/2.7e5ec62c.chunk.js.LICENSE.txt",
     "static/media/index.scss": "https://www.hackusu.com/static/media/bitwise.28276174.ttf"
   },
   "entrypoints": [
     "static/js/runtime-main.e79c9c49.js",
-    "static/js/2.b2a4e79b.chunk.js",
-    "static/css/main.3d5bc047.chunk.css",
-    "static/js/main.2dc4d8f0.chunk.js"
+    "static/js/2.7e5ec62c.chunk.js",
+    "static/css/main.141d1b4d.chunk.css",
+    "static/js/main.197b8a85.chunk.js"
   ]
 }
