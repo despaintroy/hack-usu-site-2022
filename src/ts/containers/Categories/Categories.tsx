@@ -25,7 +25,7 @@ function Categories(): React.ReactElement {
 	)
 
 	return (
-		<div className='categories pt-5' id='prizes'>
+		<div className='categories py-5' id='prizes'>
 			<Container>
 				<Subheader
 					text='Prize Categories'

@@ -17,10 +17,10 @@ function App(): React.ReactElement {
 			<Navigation />
 			<Lead />
 			<About />
-			<Schedule />
-			<Location />
 			<Categories />
+			<Location />
 			<Faq />
+			<Schedule />
 			<Contact />
 			<Sponsors />
 			<Footer />
