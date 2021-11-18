@@ -1,7 +1,7 @@
 import React from 'react'
 
 import { Button, Container } from 'react-bootstrap'
-import { registrationLink } from 'ts/utils/constants'
+import { discordLink, registrationLink } from 'ts/utils/constants'
 
 function Footer(): React.ReactElement {
 	return (
@@ -9,7 +9,7 @@ function Footer(): React.ReactElement {
 			<Container className='text-center'>
 				<Button
 					variant='success fw-bold text-uppercase'
-					className='mx-2'
+					className='m-2'
 					href={registrationLink}
 					target='_blank'
 					onClick={(): void =>
@@ -21,9 +21,9 @@ function Footer(): React.ReactElement {
 					Register for Free
 				</Button>
 				<Button
-					className='mx-2'
+					className='m-2'
 					variant='success fw-bold text-uppercase'
-					href='https://discord.gg/mDUKePRGx7'
+					href={discordLink}
 					target='_blank'
 				>
 					Join Discord

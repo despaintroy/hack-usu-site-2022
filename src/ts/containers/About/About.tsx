@@ -2,6 +2,7 @@ import React from 'react'
 
 import { Alert, Button, Container } from 'react-bootstrap'
 import Subheader from 'ts/components/Subheader'
+import { discordLink } from 'ts/utils/constants'
 
 function About(): React.ReactElement {
 	return (
@@ -60,7 +61,7 @@ function About(): React.ReactElement {
 						before the event.
 					</p>
 					<hr />
-					<Button variant='success w-100' href='https://discord.gg/mDUKePRGx7'>
+					<Button variant='success w-100' href={discordLink} target='_blank'>
 						Join Discord
 					</Button>
 				</Alert>

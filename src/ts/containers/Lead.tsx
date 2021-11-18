@@ -2,7 +2,7 @@ import React, { useEffect } from 'react'
 
 import { Button } from 'react-bootstrap'
 import Particles from 'react-particles-js'
-import { registrationLink } from 'ts/utils/constants'
+import { discordLink, registrationLink } from 'ts/utils/constants'
 import { getDuration } from 'ts/utils/countdown'
 
 function Lead(): React.ReactElement {
@@ -69,13 +69,14 @@ function Lead(): React.ReactElement {
 						Register for Free
 					</Button>
 					<br />
-					<Button variant='light' className='mt-3'>
+					<Button
+						variant='light'
+						className='mt-3'
+						href={discordLink}
+						target='_blank'
+					>
 						Join the Discord
 					</Button>
-					<br />
-					{/* <Button variant='outline-light' className='mt-5' href={discordLink}>
-						Join Discord
-					</Button> */}
 				</div>
 			</div>
 		</div>
