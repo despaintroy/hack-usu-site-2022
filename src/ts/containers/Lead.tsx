@@ -14,7 +14,7 @@ function Lead(): React.ReactElement {
 	}, [])
 
 	return (
-		<div className='bg-primary full-height lead'>
+		<div className='bg-primary lead'>
 			<Particles
 				style={{
 					position: 'absolute',
