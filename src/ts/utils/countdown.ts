@@ -1,4 +1,4 @@
-import { startTime } from './constants'
+import { START_TIME } from './constants'
 
 export type Duration = {
 	days: number
@@ -13,7 +13,7 @@ export const getDuration = (): Duration => {
 	const hour = minute * 60
 	const day = hour * 24
 
-	const difference = Math.max(0, startTime.getTime() - new Date().getTime())
+	const difference = Math.max(0, START_TIME.getTime() - new Date().getTime())
 
 	return {
 		days: Math.floor(difference / day),

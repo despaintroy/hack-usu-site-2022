@@ -2,7 +2,7 @@ import React from 'react'
 
 import { Button, Container } from 'react-bootstrap'
 import Subheader from 'ts/components/Subheader'
-import { discordLink, hackUSUEmail } from 'ts/utils/constants'
+import { CONTACT_EMAIL, DISCORD_LINK } from 'ts/utils/constants'
 
 function Contact(): React.ReactElement {
 	return (
@@ -14,12 +14,12 @@ function Contact(): React.ReactElement {
 					light
 				/>
 				<div className='text-center'>
-					<Button variant='light' href={`mailto:${hackUSUEmail}`}>
-						{hackUSUEmail}
+					<Button variant='light' href={`mailto:${CONTACT_EMAIL}`}>
+						{CONTACT_EMAIL}
 					</Button>
 					<p className='mt-3 mb-2'>– or –</p>
 					<a
-						href={discordLink}
+						href={DISCORD_LINK}
 						target='_blank'
 						rel='noreferrer'
 						className='text-light'

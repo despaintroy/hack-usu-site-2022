@@ -2,7 +2,7 @@ import React, { useEffect } from 'react'
 
 import { Button } from 'react-bootstrap'
 import Particles from 'react-particles-js'
-import { discordLink, registrationLink } from 'ts/utils/constants'
+import { DISCORD_LINK, REGISTRATION_LINK } from 'ts/utils/constants'
 import { getDuration } from 'ts/utils/countdown'
 
 function Lead(): React.ReactElement {
@@ -58,7 +58,7 @@ function Lead(): React.ReactElement {
 						variant='success fw-bold text-uppercase'
 						size='lg'
 						className='mt-4 px-5'
-						href={registrationLink}
+						href={REGISTRATION_LINK}
 						target='_blank'
 						onClick={(): void =>
 							gtag('event', 'sign_up', {
@@ -72,7 +72,7 @@ function Lead(): React.ReactElement {
 					<Button
 						variant='light'
 						className='mt-3'
-						href={discordLink}
+						href={DISCORD_LINK}
 						target='_blank'
 					>
 						Join Discord

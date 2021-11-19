@@ -2,7 +2,7 @@ import React from 'react'
 
 import { Alert, Container } from 'react-bootstrap'
 import Subheader from 'ts/components/Subheader'
-import { hackUSUEmail } from 'ts/utils/constants'
+import { CONTACT_EMAIL } from 'ts/utils/constants'
 
 function Sponsors(): React.ReactElement {
 	return (
@@ -27,7 +27,7 @@ function Sponsors(): React.ReactElement {
 				<Alert variant='primary' className='mb-5'>
 					<Alert.Heading>Want to sponsor us?</Alert.Heading>
 					To discuss sponsorship options, please contact us at{' '}
-					<a href={`mailto:${hackUSUEmail}`}>{hackUSUEmail}</a>. Thank you for
+					<a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>. Thank you for
 					your interest!
 				</Alert>
 			</Container>

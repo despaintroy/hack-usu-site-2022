@@ -1,4 +1,7 @@
-export const hackUSUEmail = 'hackusu@aggies.usu.edu'
-export const registrationLink = 'https://forms.gle/uGArvUcgqVm8Keh29'
-export const discordLink = 'https://discord.gg/mDUKePRGx7'
-export const startTime = new Date('03/18/2022 4:00 PM')
+// REGISTRATION
+export const REGISTRATION_LINK = 'https://forms.gle/uGArvUcgqVm8Keh29'
+export const START_TIME = new Date('03/18/2022 4:00 PM')
+
+// CONTACT
+export const DISCORD_LINK = 'https://discord.gg/mDUKePRGx7'
+export const CONTACT_EMAIL = 'hackusu@aggies.usu.edu'
