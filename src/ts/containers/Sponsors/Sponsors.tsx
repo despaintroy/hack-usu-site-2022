@@ -1,9 +1,6 @@
 import React from 'react'
 
-import {
-	Alert,
-	Container,
-} from 'react-bootstrap'
+import { Alert, Container } from 'react-bootstrap'
 import Subheader from 'ts/components/Subheader'
 import { hackUSUEmail } from 'ts/utils/constants'
 
