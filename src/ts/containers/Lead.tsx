@@ -2,7 +2,12 @@ import React, { useEffect } from 'react'
 
 import { Button } from 'react-bootstrap'
 import Particles from 'react-particles-js'
-import { DISCORD_LINK, REGISTRATION_LINK } from 'ts/utils/constants'
+import {
+	DISCORD_LINK,
+	REGISTRATION_CLOSED_MESSAGE,
+	REGISTRATION_LINK,
+	REGISTRATION_OPEN,
+} from 'ts/utils/constants'
 import { getDuration } from 'ts/utils/countdown'
 
 function Lead(): React.ReactElement {
@@ -54,20 +59,24 @@ function Lead(): React.ReactElement {
 						{duration.days} d, {duration.hours} h, {duration.minutes} m,{' '}
 						{duration.seconds} s
 					</p>
-					<Button
-						variant='success fw-bold text-uppercase'
-						size='lg'
-						className='mt-4 px-5'
-						href={REGISTRATION_LINK}
-						target='_blank'
-						onClick={(): void =>
-							gtag('event', 'sign_up', {
-								method: 'Google',
-							})
-						}
-					>
-						Register for Free
-					</Button>
+					{REGISTRATION_OPEN ? (
+						<Button
+							variant='success fw-bold text-uppercase'
+							size='lg'
+							className='mt-4 px-5'
+							href={REGISTRATION_LINK}
+							target='_blank'
+							onClick={(): void =>
+								gtag('event', 'sign_up', {
+									method: 'Google',
+								})
+							}
+						>
+							Register for Free
+						</Button>
+					) : (
+						<p className='mt-3 mb-0'>{REGISTRATION_CLOSED_MESSAGE}</p>
+					)}
 					<br />
 					<Button
 						variant='light'
