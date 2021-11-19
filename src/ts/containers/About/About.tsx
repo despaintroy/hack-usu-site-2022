@@ -46,7 +46,7 @@ function About(): React.ReactElement {
 							<span className='material-icons icon'>restaurant</span>
 							<h3>Free Food</h3>
 							<p>
-								You&apos;ll get dinner on Friday, and breakfast, lunch, and
+								We&apos;ll provide dinner on Friday, and breakfast, lunch, and
 								dinner on Saturday. There will also be plenty of snacks
 								available the entire event!
 							</p>

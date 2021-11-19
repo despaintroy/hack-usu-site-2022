@@ -75,7 +75,7 @@ function Lead(): React.ReactElement {
 						href={discordLink}
 						target='_blank'
 					>
-						Join the Discord
+						Join Discord
 					</Button>
 				</div>
 			</div>
