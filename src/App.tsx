@@ -8,6 +8,7 @@ import Faq from 'ts/containers/Faq'
 import Footer from 'ts/containers/Footer'
 import Lead from 'ts/containers/Lead'
 import Location from 'ts/containers/Location'
+import Registration from 'ts/containers/Registration'
 import Schedule from 'ts/containers/Schedule'
 import Sponsors from 'ts/containers/Sponsors'
 
@@ -16,6 +17,7 @@ function App(): React.ReactElement {
 		<div className='app'>
 			<Navigation />
 			<Lead />
+			<Registration />
 			<About />
 			<Categories />
 			<Location />

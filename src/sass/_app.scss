@@ -124,8 +124,11 @@ html {
 }
 
 .lead {
-	background-image: linear-gradient($gray-lighter, $gray-light);
-	height: calc(min(100vh, 50rem));
+	// background-image: linear-gradient($gray-lighter, $gray-light);
+	background-image: url('images/bg.jpg');
+	background-size: cover;
+	background-position: center;
+	height: clamp(35rem, 100vh, 50rem);
 	overflow: hidden;
 	position: relative;
 	top: 0;
@@ -149,16 +152,16 @@ html {
 	}
 	h1 {
 		font-family: $roboto-slab;
-		font-size: calc(min(10rem, 23vh));
+		font-size: calc(min(10rem, 28vh));
 		text-transform: uppercase;
 		@include media-breakpoint-down(lg) {
-			font-size: calc(min(30vw - 7rem, 23vh));
+			font-size: calc(min(30vw - 7rem, 28vh));
 		}
 		@include media-breakpoint-down(md) {
-			font-size: calc(min(30vw - 5rem, 23vh));
+			font-size: calc(min(30vw - 5rem, 28vh));
 		}
 		@include media-breakpoint-down(sm) {
-			font-size: calc(min(25vw - 1rem, 23vh));
+			font-size: calc(min(25vw - 1rem, 28vh));
 		}
 	}
 	.date {
@@ -216,9 +219,19 @@ html {
 			left: -22rem;
 		}
 	}
+}
+
+.registration {
+	text-align: center;
 	.countdown {
 		font-family: $bitwise;
-		margin-top: 2rem;
+		font-size: calc(min(2rem, 6vw));
+		span {
+			font-size: 1.5rem;
+		}
+	}
+	.message {
+		font-size: 1.3rem;
 	}
 }
 
