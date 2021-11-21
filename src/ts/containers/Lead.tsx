@@ -47,7 +47,10 @@ function Lead(): React.ReactElement {
 					},
 				}}
 			/> */}
-				{/* <img className='central-building' src={`${process.env.PUBLIC_URL}/lead-images/central-building.png`} /> */}
+				<img
+					className='central-building'
+					src={`${process.env.PUBLIC_URL}/lead-images/central-building.png`}
+				/>
 				<img
 					className='tower'
 					src={`${process.env.PUBLIC_URL}/lead-images/tower.png`}

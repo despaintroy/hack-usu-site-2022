@@ -179,7 +179,7 @@ html {
 			margin-top: 6rem;
 			margin-left: auto;
 			width: calc((16vw + 6rem));
-			@media (max-height: 520px) {
+			@media (max-height: 580px) {
 				margin-top: 1rem;
 			}
 		}
@@ -200,13 +200,22 @@ html {
 			left: -6rem;
 		}
 	}
-	// .central-building {
-	// 	position: absolute;
-	// 	left: 0;
-	// 	bottom: -20vh;
-	// 	height: 40vh;
-	// 	// filter: drop-shadow(0 0 0.5rem rgba($black, 0.5));
-	// }
+	.central-building {
+		position: absolute;
+		left: 0;
+		bottom: calc(min(-10rem, 100vh - 54rem));
+		height: 20rem;
+		filter: drop-shadow(0 0 0.5rem rgba($black, 0.5));
+		@include media-breakpoint-down(lg) {
+			left: -12rem;
+		}
+		@include media-breakpoint-down(md) {
+			left: -13rem;
+		}
+		@include media-breakpoint-down(sm) {
+			left: -22rem;
+		}
+	}
 	.countdown {
 		font-family: $bitwise;
 		margin-top: 2rem;
