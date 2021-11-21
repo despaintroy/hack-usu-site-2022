@@ -1,7 +1,6 @@
 import React, { useEffect } from 'react'
 
-import { Button } from 'react-bootstrap'
-import Particles from 'react-particles-js'
+import { Button, Container } from 'react-bootstrap'
 import {
 	DISCORD_LINK,
 	REGISTRATION_CLOSED_MESSAGE,
@@ -19,8 +18,9 @@ function Lead(): React.ReactElement {
 	}, [])
 
 	return (
-		<div className='bg-primary lead'>
-			<Particles
+		<>
+			<div className='lead'>
+				{/* <Particles
 				style={{
 					position: 'absolute',
 					left: '0',
@@ -46,15 +46,27 @@ function Lead(): React.ReactElement {
 						},
 					},
 				}}
-			/>
-			<div className='lead-container'>
-				<div>
-					<h1>Hack USU</h1>
-					<div className='date'>
-						March 18–19
-						<br />
-						2022
+			/> */}
+				{/* <img className='central-building' src={`${process.env.PUBLIC_URL}/lead-images/central-building.png`} /> */}
+				<img
+					className='tower'
+					src={`${process.env.PUBLIC_URL}/lead-images/tower.png`}
+				/>
+				<div className='text-container'>
+					<div>
+						<h1>
+							Hack
+							<br />
+							USU
+						</h1>
+						<div className='date'>
+							March <span className='text-nowrap'>18–19</span>, 2022
+						</div>
 					</div>
+				</div>
+			</div>
+			<div className='bg-primary py-5'>
+				<Container>
 					<p className='countdown'>
 						{duration.days} d, {duration.hours} h, {duration.minutes} m,{' '}
 						{duration.seconds} s
@@ -86,9 +98,17 @@ function Lead(): React.ReactElement {
 					>
 						Join Discord
 					</Button>
-				</div>
+					<br />
+					<br />
+					<br />
+					<br />
+					<br />
+					<br />
+					<br />
+					<br />
+				</Container>
 			</div>
-		</div>
+		</>
 	)
 }
 

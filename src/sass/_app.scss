@@ -124,41 +124,92 @@ html {
 }
 
 .lead {
-	text-align: center;
-	background-image: linear-gradient($aggie-blue, darken($aggie-blue, 8));
-	height: calc(max(calc(100vh - 2rem), 45rem));
+	background-image: linear-gradient($gray-lighter, $gray-light);
+	height: calc(min(100vh, 50rem));
+	overflow: hidden;
+	position: relative;
+	top: 0;
+	left: 0;
+	.text-container {
+		position: absolute;
+		padding: 0 1rem;
+		top: calc(max(5rem, 10vh));
+		left: calc(15vw + 20rem);
+		@include media-breakpoint-down(lg) {
+			left: 23rem;
+		}
+		@include media-breakpoint-down(md) {
+			left: 17rem;
+		}
+		@include media-breakpoint-down(sm) {
+			left: unset;
+			right: 0;
+			text-align: right !important;
+		}
+	}
 	h1 {
 		font-family: $roboto-slab;
-		font-size: 12vw;
+		font-size: calc(min(10rem, 23vh));
 		text-transform: uppercase;
-		@media (max-width: 576px) {
-			font-size: 6rem;
+		@include media-breakpoint-down(lg) {
+			font-size: calc(min(30vw - 7rem, 23vh));
+		}
+		@include media-breakpoint-down(md) {
+			font-size: calc(min(30vw - 5rem, 23vh));
+		}
+		@include media-breakpoint-down(sm) {
+			font-size: calc(min(25vw - 1rem, 23vh));
 		}
 	}
 	.date {
 		font-family: $roboto-slab;
 		font-weight: bold;
-		font-size: 4vw;
+		font-size: calc(min(3rem, 8vh));
 		text-transform: uppercase;
 		margin-top: 1rem;
-		@media (max-width: 576px) {
-			font-size: 2rem;
+		color: $bright-light;
+		@include media-breakpoint-down(lg) {
+			font-size: calc(min(5vw, 8vh));
+		}
+		@include media-breakpoint-down(md) {
+			font-size: calc(min(5vw, 8vh));
+		}
+		@include media-breakpoint-down(sm) {
+			font-size: calc(min(16vw - 2rem, 2rem, 8vh));
+			margin-top: 6rem;
+			margin-left: auto;
+			width: calc((16vw + 6rem));
+			@media (max-height: 520px) {
+				margin-top: 1rem;
+			}
 		}
 	}
+	.tower {
+		position: absolute;
+		top: 5rem;
+		left: 15vw;
+		height: 45rem;
+		filter: drop-shadow(0 0 0.5rem rgba($black, 0.5));
+		@include media-breakpoint-down(lg) {
+			left: 3rem;
+		}
+		@include media-breakpoint-down(md) {
+			left: -2rem;
+		}
+		@include media-breakpoint-down(sm) {
+			left: -6rem;
+		}
+	}
+	// .central-building {
+	// 	position: absolute;
+	// 	left: 0;
+	// 	bottom: -20vh;
+	// 	height: 40vh;
+	// 	// filter: drop-shadow(0 0 0.5rem rgba($black, 0.5));
+	// }
 	.countdown {
 		font-family: $bitwise;
 		margin-top: 2rem;
-	}
-	.lead-container {
-		position: absolute;
-		width: 100%;
-		padding: 0 1rem;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		left: 0;
-		top: 0;
-		margin-top: calc(max(5rem, 10vh));
 	}
 }
 
