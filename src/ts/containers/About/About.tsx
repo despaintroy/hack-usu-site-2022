@@ -18,8 +18,8 @@ function About(): React.ReactElement {
 							<span className='material-icons icon'>schedule</span>
 							<h3>24-hr Hackathon</h3>
 							<p>
-								HackUSU is Utah&apos;s largest student hackathon. All college
-								students and high school seniors are invited!
+								HackUSU is an overnight student hackathon hosted at Utah State.
+								All college students and high school seniors are invited!
 							</p>
 						</div>
 						<div className='feature'>
