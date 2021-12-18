@@ -124,100 +124,29 @@ html {
 }
 
 .lead {
-	// background-image: linear-gradient($gray-lighter, $gray-light);
 	background-image: url('images/bg.jpg');
 	background-size: cover;
 	background-position: center;
-	height: clamp(35rem, 100vh, 50rem);
-	overflow: hidden;
-	position: relative;
-	top: 0;
-	left: 0;
-	.text-container {
-		position: absolute;
-		padding: 0 1rem;
-		top: calc(max(5rem, 10vh));
-		left: calc(15vw + 20rem);
-		@include media-breakpoint-down(lg) {
-			left: 23rem;
-		}
-		@include media-breakpoint-down(md) {
-			left: 17rem;
-		}
-		@include media-breakpoint-down(sm) {
-			left: unset;
-			right: 0;
-			text-align: right !important;
-		}
+	.content {
+		padding-top: 5rem;
+		padding-bottom: 2rem;
+		min-height: 70vh;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
 	}
-	h1 {
-		font-family: $roboto-slab;
-		font-size: calc(min(10rem, 28vh));
-		text-transform: uppercase;
-		@include media-breakpoint-down(lg) {
-			font-size: calc(min(30vw - 7rem, 28vh));
-		}
-		@include media-breakpoint-down(md) {
-			font-size: calc(min(30vw - 5rem, 28vh));
-		}
-		@include media-breakpoint-down(sm) {
-			font-size: calc(min(25vw - 1rem, 28vh));
-		}
+	.lead-logo {
+		width: 100%;
+		max-height: calc(100vh - 5rem);
 	}
 	.date {
 		font-family: $roboto-slab;
 		font-weight: bold;
-		font-size: calc(min(3rem, 8vh));
+		font-size: calc(min(4rem, 7vw));
 		text-transform: uppercase;
-		margin-top: 1rem;
+		margin: 1rem 0 2rem;
+		text-align: center;
 		color: $bright-light;
-		@include media-breakpoint-down(lg) {
-			font-size: calc(min(5vw, 8vh));
-		}
-		@include media-breakpoint-down(md) {
-			font-size: calc(min(5vw, 8vh));
-		}
-		@include media-breakpoint-down(sm) {
-			font-size: calc(min(16vw - 2rem, 2rem, 8vh));
-			margin-top: 6rem;
-			margin-left: auto;
-			width: calc((16vw + 6rem));
-			@media (max-height: 580px) {
-				margin-top: 1rem;
-			}
-		}
-	}
-	.tower {
-		position: absolute;
-		top: 5rem;
-		left: 15vw;
-		height: 45rem;
-		filter: drop-shadow(0 0 0.5rem rgba($black, 0.5));
-		@include media-breakpoint-down(lg) {
-			left: 3rem;
-		}
-		@include media-breakpoint-down(md) {
-			left: -2rem;
-		}
-		@include media-breakpoint-down(sm) {
-			left: -6rem;
-		}
-	}
-	.central-building {
-		position: absolute;
-		left: 0;
-		bottom: calc(min(-10rem, 100vh - 54rem));
-		height: 20rem;
-		filter: drop-shadow(0 0 0.5rem rgba($black, 0.5));
-		@include media-breakpoint-down(lg) {
-			left: -12rem;
-		}
-		@include media-breakpoint-down(md) {
-			left: -13rem;
-		}
-		@include media-breakpoint-down(sm) {
-			left: -22rem;
-		}
 	}
 }
 

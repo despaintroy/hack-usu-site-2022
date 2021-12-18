@@ -1,5 +1,7 @@
 import React from 'react'
 
+import { Container } from 'react-bootstrap'
+
 function Lead(): React.ReactElement {
 	return (
 		<div className='lead'>
@@ -30,26 +32,15 @@ function Lead(): React.ReactElement {
 					},
 				}}
 			/> */}
-			<img
-				className='central-building'
-				src={`${process.env.PUBLIC_URL}/lead-images/central-building.png`}
-			/>
-			<img
-				className='tower'
-				src={`${process.env.PUBLIC_URL}/lead-images/tower.png`}
-			/>
-			<div className='text-container'>
-				<div>
-					<h1>
-						Hack
-						<br />
-						USU
-					</h1>
-					<div className='date'>
-						March <span className='text-nowrap'>18–19</span>, 2022
-					</div>
+			<Container className='content'>
+				<img
+					className='lead-logo'
+					src={`${process.env.PUBLIC_URL}/lead-images/logo-vector.svg`}
+				/>
+				<div className='date'>
+					March <span className='text-nowrap'>18-19</span>, 2022
 				</div>
-			</div>
+			</Container>
 		</div>
 	)
 }
