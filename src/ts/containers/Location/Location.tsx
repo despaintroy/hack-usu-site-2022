@@ -23,8 +23,8 @@ function Location(): React.ReactElement {
 					<Col sm={true} className='mb-5'>
 						<h3>Huntsman Hall</h3>
 						<p>
-							Huntsman Hall is located at the intersection of E 400 N (hwy 89)
-							and Champ Drive in Logan, UT.
+							Huntsman Hall is located at the intersection of highway 89 (E 400
+							N) and Champ Drive in Logan, UT.
 						</p>
 						<p>Check in will be at the North entrance.</p>
 						<Button variant='light' href={googleMapsLink} target='_blank'>
