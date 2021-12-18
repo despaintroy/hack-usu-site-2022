@@ -22,7 +22,7 @@ function Registration(): React.ReactElement {
 			<div className='registration bg-primary py-5' id='registration'>
 				<Container>
 					<p className='countdown'>
-						<span>– HackUSU –</span>
+						<span>– Starting –</span>
 						<br />
 						{duration.days} d. {duration.hours} h. {duration.minutes} m.{' '}
 						{duration.seconds} s.

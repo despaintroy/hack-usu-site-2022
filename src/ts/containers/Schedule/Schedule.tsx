@@ -28,7 +28,7 @@ function Schedule(): React.ReactElement {
 			<Container>
 				<Subheader
 					text='Schedule'
-					subtext="Tenative schedule is subject to change. Check back closer to the event for information on workshops we'll be offering!"
+					subtext='Tenative schedule is subject to change. Check back closer to the event for details on tech talks and workshops!'
 				/>
 				<Row>
 					<Col md className='mb-5'>
