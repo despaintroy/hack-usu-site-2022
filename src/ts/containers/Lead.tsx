@@ -35,7 +35,7 @@ function Lead(): React.ReactElement {
 			<Container className='content'>
 				<img
 					className='lead-logo'
-					src={`${process.env.PUBLIC_URL}/lead-images/logo-vector.svg`}
+					src={`${process.env.PUBLIC_URL}/lead-images/logo-curves.svg`}
 				/>
 				<div className='date'>
 					March <span className='text-nowrap'>18-19</span>, 2022
