@@ -128,16 +128,27 @@ html {
 	background-size: cover;
 	background-position: center;
 	.content {
-		padding-top: 5rem;
+		padding-top: 7rem;
 		padding-bottom: 2rem;
 		min-height: 70vh;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
+		max-width: 1000px;
 	}
 	.lead-logo {
 		width: 100%;
 		max-height: calc(100vh - 5rem);
+		padding: 0 4rem;
+		// @media only screen and (max-width: 992px) {
+		// 	width: 47%;
+		// }
+		@media only screen and (max-width: 600px) {
+			padding: 0 2rem;
+		}
+		@media only screen and (max-width: 450px) {
+			padding: 0;
+		}
 	}
 	.date {
 		font-family: $roboto-slab;
@@ -204,6 +215,7 @@ html {
 		padding-bottom: 2rem;
 		display: flex;
 		justify-content: space-evenly;
+		align-items: center;
 		flex-wrap: wrap;
 		img {
 			max-width: 15rem;
