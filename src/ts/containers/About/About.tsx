@@ -23,7 +23,7 @@ function About(): React.ReactElement {
 							</p>
 						</div>
 						<div className='feature'>
-							<span className='material-icons icon'>code</span>
+							<span className='material-icons icon'>school</span>
 							<h3>Workshops</h3>
 							<p>
 								We&apos;ll have several great workshops on a variety of topics
