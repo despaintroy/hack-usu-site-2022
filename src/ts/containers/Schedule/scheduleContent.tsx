@@ -1,8 +1,12 @@
+import React from 'react'
+
+import { DISCORD_LINK } from 'ts/utils/constants'
+
 export interface ScheduleData {
 	time: string
 	title: string
 	location?: string
-	details?: string
+	details?: string | React.ReactElement
 }
 
 export const friSchedule: ScheduleData[] = [
@@ -10,8 +14,15 @@ export const friSchedule: ScheduleData[] = [
 		time: '3:00 pm',
 		title: 'Check-in Opens',
 		location: 'North entrance',
-		details:
-			'Check-in will be available from 3:00 to midnight. Come pick-up your HackUSU swag, and join the Discord!',
+		details: (
+			<>
+				Check-in will be available from 3:00 to midnight. Come pick-up your
+				HackUSU swag, and{' '}
+				<a href={DISCORD_LINK} target='_blank' rel='noreferrer'>
+					join the Discord!
+				</a>
+			</>
+		),
 	},
 	{
 		time: '4:00 - 5:00 pm',
@@ -69,7 +80,7 @@ export const satSchedule: ScheduleData[] = [
 	},
 	{
 		time: '4:00 - 6:00 pm',
-		title: 'Dinner with Employers',
+		title: 'Dinner and Networking',
 		location: '1st & 2nd floors',
 		details:
 			'Grab pizza on the 1st floor, then head upstairs to network with our sponsor companies. Bring your resume!',
