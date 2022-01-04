@@ -1,8 +1,7 @@
 import React from 'react'
 
-import { Alert, Button, Container } from 'react-bootstrap'
+import { Container } from 'react-bootstrap'
 import Subheader from 'ts/components/Subheader'
-import { DISCORD_LINK } from 'ts/utils/constants'
 
 function About(): React.ReactElement {
 	return (
@@ -18,7 +17,7 @@ function About(): React.ReactElement {
 							<span className='material-icons icon'>schedule</span>
 							<h3>24-hr Hackathon</h3>
 							<p>
-								HackUSU is an overnight student hackathon hosted at Utah State.
+								Build a software or hardware project to compete against other teams.
 								All college students and high school seniors are invited!
 							</p>
 						</div>
@@ -26,9 +25,7 @@ function About(): React.ReactElement {
 							<span className='material-icons icon'>school</span>
 							<h3>Workshops</h3>
 							<p>
-								We&apos;ll have several great workshops on a variety of topics
-								Saturday morning! Check back closer to the event for more
-								details.
+								We&apos;ll have many great workshops and tech talks on a variety of topics. Check back closer to the event for a complete list!
 							</p>
 						</div>
 					</div>
@@ -53,18 +50,6 @@ function About(): React.ReactElement {
 						</div>
 					</div>
 				</div>
-
-				<Alert show={true} className='discord-invite mx-auto mt-3'>
-					<Alert.Heading>Join us on Discord!</Alert.Heading>
-					<p>
-						Join the discord to stay up to date with the latest announcements
-						before the event.
-					</p>
-					<hr />
-					<Button variant='success w-100' href={DISCORD_LINK} target='_blank'>
-						Join Discord
-					</Button>
-				</Alert>
 			</Container>
 		</div>
 	)
