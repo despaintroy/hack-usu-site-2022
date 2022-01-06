@@ -17,15 +17,16 @@ function About(): React.ReactElement {
 							<span className='material-icons icon'>schedule</span>
 							<h3>24-hr Hackathon</h3>
 							<p>
-								Build a software or hardware project to compete against other teams.
-								All college students and high school seniors are invited!
+								Build a software or hardware project to compete against other
+								teams. All college students and high school seniors are invited!
 							</p>
 						</div>
 						<div className='feature'>
 							<span className='material-icons icon'>school</span>
 							<h3>Workshops</h3>
 							<p>
-								We&apos;ll have many great workshops and tech talks on a variety of topics. Check back closer to the event for a complete list!
+								We&apos;ll have many great workshops and tech talks on a variety
+								of topics. Check back closer to the event for a complete list!
 							</p>
 						</div>
 					</div>
