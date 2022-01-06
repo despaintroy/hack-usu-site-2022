@@ -1,5 +1,5 @@
 // REGISTRATION
-export const REGISTRATION_OPEN = false
+export const REGISTRATION_OPEN = true
 export const REGISTRATION_CLOSED_MESSAGE =
 	'Registration opens late January 2022'
 export const REGISTRATION_LINK =
