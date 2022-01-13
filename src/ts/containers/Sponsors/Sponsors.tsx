@@ -15,6 +15,11 @@ function Sponsors(): React.ReactElement {
 				<div className='sponsors-list'>
 					<div>
 						<img
+							src={process.env.PUBLIC_URL + '/sponsors/lightning-kite.svg'}
+						/>
+					</div>
+					<div>
+						<img
 							src={process.env.PUBLIC_URL + '/sponsors/college-of-science.png'}
 						/>
 					</div>
