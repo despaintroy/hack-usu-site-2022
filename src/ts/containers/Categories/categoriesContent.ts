@@ -28,7 +28,7 @@ export const categoriesList: CategoriesData[] = [
 		title: 'Privacy & Security',
 		materialIcon: 'lock',
 		description:
-			'Deomonstrate improvements to user privacy, authentication methods, or system security.',
+			'Demonstrate improvements to user privacy, authentication methods, or system security.',
 		ideas: [
 			'Design a more secure user authentication system',
 			"Create a tool to help users test their passwords' strength",
