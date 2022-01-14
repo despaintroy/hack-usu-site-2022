@@ -10,6 +10,10 @@ export const faqList: FaqData[] = [
 			"You can't use any code that was written before the start of the hackathon. However, you can begin thinking of ideas and forming teams now!",
 	},
 	{
+		question: 'What is the max team size?',
+		answer: 'You may have up to 4 students on your team',
+	},
+	{
 		question: 'Who can attend HackUSU?',
 		answer:
 			'All university or college students and high school seniors are welcome! Participants must be current students or have graduated in the last 12 months. There is no restriction on major.',
