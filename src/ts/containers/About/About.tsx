@@ -1,9 +1,9 @@
-import React from 'react'
+import React, { FC } from 'react'
 
 import { Container } from 'react-bootstrap'
 import Subheader from 'ts/components/Subheader'
 
-function About(): React.ReactElement {
+const About: FC = () => {
 	return (
 		<div className='about py-5' id='about'>
 			<Container>

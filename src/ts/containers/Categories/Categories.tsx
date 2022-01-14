@@ -1,11 +1,11 @@
-import React from 'react'
+import React, { FC } from 'react'
 
 import { Container } from 'react-bootstrap'
 import Subheader from 'ts/components/Subheader'
 
 import { CategoriesData, categoriesList } from './categoriesContent'
 
-function Categories(): React.ReactElement {
+const Categories: FC = () => {
 	const categoryTile = (category: CategoriesData): React.ReactElement => (
 		<div className='category-tile rounded' key={category.title}>
 			<span className='material-icons icon'>{category.materialIcon}</span>

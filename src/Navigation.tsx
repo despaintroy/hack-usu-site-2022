@@ -1,8 +1,8 @@
-import React from 'react'
+import React, { FC } from 'react'
 
 import { Container, Nav, Navbar } from 'react-bootstrap'
 
-function Navigation(): React.ReactElement {
+const Navigation: FC = () => {
 	return (
 		<Navbar
 			bg='primary'

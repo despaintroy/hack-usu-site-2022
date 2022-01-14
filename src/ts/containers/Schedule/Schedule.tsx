@@ -1,11 +1,11 @@
-import React from 'react'
+import React, { FC } from 'react'
 
 import { Col, Container, Row } from 'react-bootstrap'
 import Subheader from 'ts/components/Subheader'
 
 import { friSchedule, satSchedule, ScheduleData } from './scheduleContent'
 
-function Schedule(): React.ReactElement {
+const Schedule: FC = () => {
 	const renderTable = (data: ScheduleData[]): React.ReactElement => {
 		return (
 			<div className='schedule-table'>

@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { FC } from 'react'
 
 interface SubheaderProps {
 	text: string
@@ -6,7 +6,7 @@ interface SubheaderProps {
 	light?: boolean
 }
 
-function Subheader(props: SubheaderProps): React.ReactElement {
+const Subheader: FC<SubheaderProps> = props => {
 	const { text, subtext, light } = props
 
 	return (

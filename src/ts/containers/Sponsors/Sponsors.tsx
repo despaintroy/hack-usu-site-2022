@@ -1,10 +1,10 @@
-import React from 'react'
+import React, { FC } from 'react'
 
 import { Alert, Container } from 'react-bootstrap'
 import Subheader from 'ts/components/Subheader'
 import { CONTACT_EMAIL } from 'ts/utils/constants'
 
-function Sponsors(): React.ReactElement {
+const Sponsors: FC = () => {
 	return (
 		<div className='sponsors py-5' id='sponsors'>
 			<Container>

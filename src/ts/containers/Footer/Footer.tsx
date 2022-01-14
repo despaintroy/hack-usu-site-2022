@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { FC } from 'react'
 
 import { Button, Container } from 'react-bootstrap'
 import {
@@ -8,7 +8,7 @@ import {
 	REGISTRATION_OPEN,
 } from 'ts/utils/constants'
 
-function Footer(): React.ReactElement {
+const Footer: FC = () => {
 	return (
 		<div className='footer py-5'>
 			<Container className='text-center'>

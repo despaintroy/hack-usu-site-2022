@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React, { FC, useEffect } from 'react'
 
 import { Button, Container } from 'react-bootstrap'
 import {
@@ -9,7 +9,7 @@ import {
 } from 'ts/utils/constants'
 import { getDuration } from 'ts/utils/countdown'
 
-function Registration(): React.ReactElement {
+const Registration: FC = () => {
 	const [duration, setDuration] = React.useState(getDuration())
 
 	useEffect(() => {

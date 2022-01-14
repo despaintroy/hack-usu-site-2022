@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { FC } from 'react'
 
 import Navigation from 'Navigation'
 import About from 'ts/containers/About'
@@ -12,7 +12,7 @@ import Registration from 'ts/containers/Registration'
 import Schedule from 'ts/containers/Schedule'
 import Sponsors from 'ts/containers/Sponsors'
 
-function App(): React.ReactElement {
+const App: FC = () => {
 	return (
 		<div className='app'>
 			<Navigation />

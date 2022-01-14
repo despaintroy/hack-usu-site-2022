@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { FC } from 'react'
 
 import { Container } from 'react-bootstrap'
 import Disclosure from 'ts/components/Disclosure'
@@ -7,7 +7,7 @@ import { CONTACT_EMAIL, DISCORD_LINK } from 'ts/utils/constants'
 
 import { faqList } from './faqContent'
 
-function Faq(): React.ReactElement {
+const Faq: FC = () => {
 	return (
 		<div className='faq py-5' id='faq'>
 			<Container className='narrow'>

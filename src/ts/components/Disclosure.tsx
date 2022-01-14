@@ -1,11 +1,11 @@
-import React, { useState } from 'react'
+import React, { FC, useState } from 'react'
 
 interface DisclosureProps {
 	title: string
 	children: React.ReactChildren | string
 }
 
-function Disclosure(props: DisclosureProps): React.ReactElement {
+const Disclosure: FC<DisclosureProps> = props => {
 	const { title, children } = props
 	const [open, setOpen] = useState(false)
 

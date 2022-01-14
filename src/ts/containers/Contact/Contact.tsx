@@ -1,10 +1,10 @@
-import React from 'react'
+import React, { FC } from 'react'
 
 import { Button, Container } from 'react-bootstrap'
 import Subheader from 'ts/components/Subheader'
 import { CONTACT_EMAIL, DISCORD_LINK } from 'ts/utils/constants'
 
-function Contact(): React.ReactElement {
+const Contact: FC = () => {
 	return (
 		<div className='contact bg-primary py-5' id='contact'>
 			<Container>

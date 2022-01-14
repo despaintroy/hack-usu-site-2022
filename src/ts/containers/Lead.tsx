@@ -1,8 +1,8 @@
-import React from 'react'
+import React, { FC } from 'react'
 
 import { Container } from 'react-bootstrap'
 
-function Lead(): React.ReactElement {
+const Lead: FC = () => {
 	return (
 		<div className='lead'>
 			{/* <Particles
