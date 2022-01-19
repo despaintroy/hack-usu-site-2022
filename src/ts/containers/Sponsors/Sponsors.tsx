@@ -3,8 +3,11 @@ import React, { FC } from 'react'
 import { Alert, Container } from 'react-bootstrap'
 import Subheader from 'ts/components/Subheader'
 import { CONTACT_EMAIL } from 'ts/utils/constants'
+import { sponsorData } from './sponsorData'
 
 const Sponsors: FC = () => {
+	console.log(sponsorData)
+
 	return (
 		<div className='sponsors py-5' id='sponsors'>
 			<Container>
@@ -13,21 +16,13 @@ const Sponsors: FC = () => {
 					subtext='Thanks to the amazing companies and organizations who sponsor HackUSU!'
 				/>
 				<div className='sponsors-list'>
-					<div>
-						<img
-							src={process.env.PUBLIC_URL + '/sponsors/lightning-kite.svg'}
-						/>
-					</div>
-					<div>
-						<img
-							src={process.env.PUBLIC_URL + '/sponsors/college-of-science.png'}
-						/>
-					</div>
-					<div>
-						<img
-							src={process.env.PUBLIC_URL + '/sponsors/huntsman-school.jpg'}
-						/>
-					</div>
+					{sponsorData.map((sponsor, index) => (
+						<a key={index} href={sponsor.url} target='_blank' rel='noreferrer'>
+							<img
+								src={process.env.PUBLIC_URL + '/sponsors/' + sponsor.fileName}
+							/>
+						</a>
+					))}
 				</div>
 				<Alert variant='primary' className='mb-5'>
 					<Alert.Heading>Want to sponsor us?</Alert.Heading>
