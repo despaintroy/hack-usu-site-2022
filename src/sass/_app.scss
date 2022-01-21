@@ -29,10 +29,27 @@ html {
 // ===================================
 
 .navigation {
-	box-shadow: 0 0 7px darken($aggie-blue, 8);
 	.navbar-brand {
 		font-weight: bold;
 		font-family: $roboto-slab;
+	}
+}
+
+.registration-banner {
+	box-shadow: 0 0 7px darken($aggie-blue, 8);
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background-color: $blue;
+	padding: 4rem 0 0.5rem;
+	color: white;
+	text-align: center;
+	font-family: $roboto-slab;
+	text-transform: uppercase;
+	cursor: pointer;
+	&:hover {
+		background-color: lighten($blue, 5%);
 	}
 }
 
