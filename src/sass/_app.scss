@@ -182,22 +182,23 @@ html {
 		background-color: $blue-dark;
 		padding: 0.5rem;
 	}
-	.schedule-row {
-		padding: 0.5rem 0;
+	.schedule-item {
+		padding: 1rem 0;
 		width: 100%;
-		display: flex;
 		border-bottom: 1px solid $gray-light;
 		.time {
-			flex: 0 0 10rem;
 			font-family: $roboto-slab;
+			letter-spacing: 0.1ch;
+			font-weight: bold;
+			color: $gray-dark;
+			margin-bottom: 0.5rem;
 		}
 		.title {
 			font-weight: bold;
-			font-size: 1.2rem;
-			color: $blue-darker;
+			font-size: 1.3rem;
+			color: $brick;
 		}
 		.location {
-			color: $bright-light;
 			font-weight: bold;
 		}
 		.details {
@@ -205,9 +206,6 @@ html {
 			padding-top: 0.5rem;
 		}
 	}
-	// .schedule-row:nth-child(odd) {
-	// 	background-color: $gray-lighter;
-	// }
 }
 
 .sponsors {

@@ -8,15 +8,13 @@ import { friSchedule, satSchedule, ScheduleData } from './scheduleContent'
 const Schedule: FC = () => {
 	const renderTable = (data: ScheduleData[]): React.ReactElement => {
 		return (
-			<div className='schedule-table'>
+			<div className='schedule-list'>
 				{data.map((s, idx) => (
-					<div key={idx} className='schedule-row'>
+					<div key={idx} className='schedule-item'>
 						<div className='time'>{s.time}</div>
-						<div>
-							<div className='title'>{s.title}</div>
-							<div className='location'>{s.location}</div>
-							<div className='details'>{s.details}</div>
-						</div>
+						<div className='title'>{s.title}</div>
+						<div className='location'>{s.location}</div>
+						<div className='details'>{s.details}</div>
 					</div>
 				))}
 			</div>
