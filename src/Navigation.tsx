@@ -19,7 +19,7 @@ const Navigation: FC = () => {
 					<Nav>
 						<Nav.Link href='#registration'>Register</Nav.Link>
 						<Nav.Link href='#about'>About</Nav.Link>
-						<Nav.Link href='#prizes'>Prizes</Nav.Link>
+						<Nav.Link href='#categories'>Categories</Nav.Link>
 						<Nav.Link href='#location'>Location</Nav.Link>
 						<Nav.Link href='#faq'>FAQ</Nav.Link>
 						<Nav.Link href='#schedule'>Schedule</Nav.Link>

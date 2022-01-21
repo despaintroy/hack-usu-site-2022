@@ -25,7 +25,7 @@ const Categories: FC = () => {
 	)
 
 	return (
-		<div className='categories py-5' id='prizes'>
+		<div className='categories py-5' id='categories'>
 			<Container>
 				<Subheader
 					text='Prize Categories'
