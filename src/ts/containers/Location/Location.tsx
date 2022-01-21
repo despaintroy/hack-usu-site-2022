@@ -13,7 +13,7 @@ const Location: FC = () => {
 				src={process.env.PUBLIC_URL + '/huntsman-hall-entrance.jpg'}
 				className='hh-banner'
 			/>
-			<Container>
+			<Container className='medium'>
 				<Subheader
 					text='Location'
 					subtext='HackUSU 2022 will be hosted at Huntsman Hall, Utah State University Campus'
