@@ -13,7 +13,7 @@ export const friSchedule: ScheduleData[] = [
 	{
 		time: '3:00 pm',
 		title: 'Check-in Opens',
-		location: 'North entrance',
+		location: 'Huntsman Hall North Entrance',
 		details: (
 			<>
 				Check-in will be available from 3:00 to midnight. Come pick-up your
@@ -27,9 +27,9 @@ export const friSchedule: ScheduleData[] = [
 	{
 		time: '4:00 - 5:00 pm',
 		title: 'Opening Keynote',
-		location: '4th floor (Perry Pavilion)',
+		location: 'USU Conference Center',
 		details:
-			'The keynote and opening ceremonies will also be broadcast to overflow rooms on the 3rd floor. Hang out afterward if you still need to find a team!',
+			'The keynote and opening ceremonies will also be broadcast to overflow rooms in Huntsman Hall. Hang out afterward if you still need to find a team!',
 	},
 	{
 		time: '5:00 pm',
