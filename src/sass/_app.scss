@@ -9,6 +9,9 @@ html {
 	&.narrow {
 		max-width: 50rem;
 	}
+	&.medium {
+		max-width: 60rem;
+	}
 }
 
 .placeholder {
@@ -197,10 +200,12 @@ html {
 		.title {
 			font-weight: bold;
 			font-size: 1.3rem;
-			color: $brick;
+			color: $blue-darker;
+			line-height: normal;
 		}
 		.location {
 			font-weight: bold;
+			color: $brick;
 		}
 		.details {
 			color: $gray-darker;

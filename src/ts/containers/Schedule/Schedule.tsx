@@ -23,7 +23,7 @@ const Schedule: FC = () => {
 
 	return (
 		<div className='schedule py-5' id='schedule'>
-			<Container>
+			<Container className='medium'>
 				<Subheader
 					text='Schedule'
 					subtext='Tenative schedule is subject to change. Check back closer to the event for details on tech talks and workshops!'
