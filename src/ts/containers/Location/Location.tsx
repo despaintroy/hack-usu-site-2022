@@ -8,16 +8,16 @@ const googleMapsLink =
 
 const Location: FC = () => {
 	return (
-		<div className='location py-5 bg-primary' id='location'>
+		<div className='location pb-5 mt-5 bg-primary' id='location'>
+			<img
+				src={process.env.PUBLIC_URL + '/huntsman-hall-entrance.jpg'}
+				className='hh-banner'
+			/>
 			<Container>
 				<Subheader
 					text='Location'
 					subtext='HackUSU 2022 will be hosted at Huntsman Hall, Utah State University Campus'
 					light
-				/>
-				<img
-					src={process.env.PUBLIC_URL + '/huntsman-hall.jpg'}
-					className='hh-banner'
 				/>
 				<Row>
 					<Col sm={true} className='mb-5'>
