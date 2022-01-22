@@ -2,14 +2,22 @@ import React from 'react'
 
 import { DISCORD_LINK } from 'ts/utils/constants'
 
-export interface ScheduleData {
-	time: string
+export interface Workshop {
+	time?: string
+	title: string
+	location?: string
+	presenter?: string
+}
+
+export interface ScheduleItem {
+	time?: string
 	title: string
 	location?: string
 	details?: string | React.ReactElement
+	workshops?: Workshop[]
 }
 
-export const friSchedule: ScheduleData[] = [
+export const friSchedule: ScheduleItem[] = [
 	{
 		time: '3:00 pm',
 		title: 'Check-in Opens',
@@ -43,10 +51,8 @@ export const friSchedule: ScheduleData[] = [
 		location: '2nd floor',
 	},
 	{
-		time: '8:00 - 10:00 pm',
 		title: 'Tech Talks & Workshops',
-		location: '3rd floor classrooms',
-		details: 'Topics to be announced.',
+		details: 'Topics to be announced',
 	},
 	{
 		time: 'Midnight',
@@ -55,17 +61,15 @@ export const friSchedule: ScheduleData[] = [
 	},
 ]
 
-export const satSchedule: ScheduleData[] = [
+export const satSchedule: ScheduleItem[] = [
 	{
 		time: '8:00 am',
 		title: 'Breakfast',
 		location: '2nd floor',
 	},
 	{
-		time: '9:00 am - Noon',
 		title: 'Tech Talks & Workshops',
-		location: '3rd floor classrooms',
-		details: 'Topics to be announced.',
+		details: 'Topics to be announced',
 	},
 	{
 		time: 'Noon',

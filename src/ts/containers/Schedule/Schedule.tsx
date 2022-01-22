@@ -2,25 +2,11 @@ import React, { FC } from 'react'
 
 import { Col, Container, Row } from 'react-bootstrap'
 import Subheader from 'ts/components/Subheader'
+import EventList from './EventList'
 
-import { friSchedule, satSchedule, ScheduleData } from './scheduleContent'
+import { friSchedule, satSchedule } from './scheduleContent'
 
 const Schedule: FC = () => {
-	const renderTable = (data: ScheduleData[]): React.ReactElement => {
-		return (
-			<div className='schedule-list'>
-				{data.map((s, idx) => (
-					<div key={idx} className='schedule-item'>
-						<div className='time'>{s.time}</div>
-						<div className='title'>{s.title}</div>
-						<div className='location'>{s.location}</div>
-						<div className='details'>{s.details}</div>
-					</div>
-				))}
-			</div>
-		)
-	}
-
 	return (
 		<div className='schedule py-5' id='schedule'>
 			<Container className='medium'>
@@ -33,13 +19,13 @@ const Schedule: FC = () => {
 						<h3>
 							Friday, March 18<sup>th</sup>
 						</h3>
-						{renderTable(friSchedule)}
+						<EventList schedule={friSchedule} />
 					</Col>
 					<Col md>
 						<h3>
 							Saturday, March 19<sup>th</sup>
 						</h3>
-						{renderTable(satSchedule)}
+						<EventList schedule={satSchedule} />
 					</Col>
 				</Row>
 			</Container>

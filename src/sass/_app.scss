@@ -43,7 +43,7 @@ html {
 	width: 100%;
 	background-color: $blue;
 	padding: 4rem 0 0.5rem;
-	color: white;
+	color: $white;
 	text-align: center;
 	font-family: $roboto-slab;
 	text-transform: uppercase;
@@ -161,9 +161,6 @@ html {
 		width: 100%;
 		max-height: calc(100vh - 5rem);
 		padding: 0 4rem;
-		// @media only screen and (max-width: 992px) {
-		// 	width: 47%;
-		// }
 		@media only screen and (max-width: 600px) {
 			padding: 0 2rem;
 		}
@@ -211,7 +208,7 @@ html {
 			font-family: $roboto-slab;
 			letter-spacing: 0.1ch;
 			font-weight: bold;
-			color: $gray-dark;
+			color: $brick;
 			margin-bottom: 0.5rem;
 		}
 		.title {
@@ -222,11 +219,36 @@ html {
 		}
 		.location {
 			font-weight: bold;
-			color: $brick;
+			color: $gray-dark;
 		}
 		.details {
 			color: $gray-darker;
 			padding-top: 0.5rem;
+		}
+		.workshop-list {
+			line-height: normal;
+			.workshop-item {
+				margin: 1rem 0;
+				border-left: 4px solid $brick;
+				padding-left: 0.75rem;
+				margin-left: 0.5rem;
+			}
+			.workshop-time {
+				font-weight: bold;
+				color: $brick;
+				margin-bottom: 0.3rem;
+			}
+			.workshop-title {
+				font-weight: bold;
+				font-size: 1.1rem;
+			}
+			.workshop-location {
+				color: $gray-dark;
+				font-weight: bold;
+			}
+			.workshop-presenter {
+				margin-top: 0.3rem;
+			}
 		}
 	}
 }
