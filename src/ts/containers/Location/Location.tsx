@@ -27,8 +27,13 @@ const Location: FC = () => {
 							N) and Champ Drive in Logan, UT.
 						</p>
 						<p>Check in will be at the North entrance.</p>
-						<Button variant='light' href={googleMapsLink} target='_blank'>
-							Open in Google Maps &nbsp;&rarr;
+						<Button
+							variant='light'
+							href={googleMapsLink}
+							target='_blank'
+							className='d-block mx-auto'
+						>
+							View in Google Maps &nbsp;&rarr;
 						</Button>
 					</Col>
 					<Col sm={true}>
@@ -37,6 +42,10 @@ const Location: FC = () => {
 							Overnight parking for individual vehicles and busses will be
 							available at HackUSU. We will provide additional details closer to
 							the event.
+						</p>
+						<p>
+							When registering, please indicate if you are parking on campus so
+							we can reserve enough spots.
 						</p>
 					</Col>
 				</Row>
