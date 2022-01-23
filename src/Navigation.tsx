@@ -6,6 +6,16 @@ import { REGISTRATION_LINK, REGISTRATION_OPEN } from 'ts/utils/constants'
 const Navigation: FC = () => {
 	return (
 		<>
+			{REGISTRATION_OPEN && (
+				<div
+					className='registration-banner'
+					onClick={(): void => {
+						window.open(REGISTRATION_LINK, '_blank')
+					}}
+				>
+					<Container>Register for Free</Container>
+				</div>
+			)}
 			<Navbar
 				bg='primary'
 				variant='dark'
@@ -30,16 +40,6 @@ const Navigation: FC = () => {
 					</Navbar.Collapse>
 				</Container>
 			</Navbar>
-			{REGISTRATION_OPEN && (
-				<div
-					className='registration-banner'
-					onClick={(): void => {
-						window.open(REGISTRATION_LINK, '_blank')
-					}}
-				>
-					<Container>Register for Free</Container>
-				</div>
-			)}
 		</>
 	)
 }

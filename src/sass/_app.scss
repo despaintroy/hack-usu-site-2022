@@ -36,6 +36,7 @@ html {
 }
 
 .registration-banner {
+	z-index: $zindex-fixed;
 	box-shadow: 0 0 7px darken($aggie-blue, 8);
 	position: fixed;
 	top: 0;
