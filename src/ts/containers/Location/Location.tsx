@@ -8,7 +8,7 @@ const googleMapsLink =
 
 const Location: FC = () => {
 	return (
-		<div className='location pb-5 mt-5 bg-primary' id='location'>
+		<div className='location pb-5 bg-primary' id='location'>
 			<img
 				src={process.env.PUBLIC_URL + '/huntsman-hall-entrance.jpg'}
 				className='hh-banner'

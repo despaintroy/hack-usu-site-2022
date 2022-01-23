@@ -7,8 +7,8 @@ import { CategoriesData, categoriesList } from './categoriesContent'
 
 const Categories: FC = () => {
 	const categoryTile = (category: CategoriesData): React.ReactElement => (
-		<div className='category-tile rounded' key={category.title}>
-			<span className='material-icons icon'>{category.materialIcon}</span>
+		<div className='category-tile rounded shadow-sm' key={category.title}>
+			<div className='material-icons icon'>{category.materialIcon}</div>
 			<div className='title'>{category.title}</div>
 			<div className='description'>{category.description}</div>
 			{/* {category.ideas.length > 0 && (
