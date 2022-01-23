@@ -5,7 +5,7 @@ import Subheader from 'ts/components/Subheader'
 
 const About: FC = () => {
 	return (
-		<div className='about py-5' id='about'>
+		<div className='about py-5 bg-primary' id='about'>
 			<Container>
 				<Subheader text='What is Hack USU?' />
 				<div className='feature-container'>

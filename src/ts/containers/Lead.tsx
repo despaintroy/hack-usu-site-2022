@@ -51,13 +51,14 @@ const Lead: FC = () => {
 					<h2>
 						<b>
 							24hr Coding & hardware competition with workshops, networking, and
-							plenty of food
+							plenty of food!
 						</b>
 					</h2>
 					<div className='buttons'>
 						{REGISTRATION_OPEN ? (
 							<Button
 								variant='primary'
+								className='shadow'
 								size='lg'
 								href={REGISTRATION_LINK}
 								target='_blank'
@@ -73,7 +74,8 @@ const Lead: FC = () => {
 							<p className='mt-5 mb-0 message'>{REGISTRATION_CLOSED_MESSAGE}</p>
 						)}
 						<Button
-							variant='secondary'
+							variant='light'
+							className='border shadow'
 							size='lg'
 							href={DISCORD_LINK}
 							target='_blank'
