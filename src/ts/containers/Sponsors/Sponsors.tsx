@@ -6,8 +6,6 @@ import { CONTACT_EMAIL } from 'ts/utils/constants'
 import { sponsorData } from './sponsorData'
 
 const Sponsors: FC = () => {
-	console.log(sponsorData)
-
 	return (
 		<div className='sponsors py-5' id='sponsors'>
 			<Container>
