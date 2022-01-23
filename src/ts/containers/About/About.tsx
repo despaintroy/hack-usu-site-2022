@@ -7,10 +7,7 @@ const About: FC = () => {
 	return (
 		<div className='about py-5' id='about'>
 			<Container>
-				<Subheader
-					text='What is Hack USU?'
-					subtext='HackUSU is an annual 24-hr team coding competition with workshops, free food, and more!'
-				/>
+				<Subheader text='What is Hack USU?' />
 				<div className='feature-container'>
 					<div className='feature-container'>
 						<div className='feature'>

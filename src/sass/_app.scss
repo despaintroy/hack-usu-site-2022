@@ -156,8 +156,8 @@ html {
 	background-size: cover;
 	background-position: center;
 	.content {
-		padding-top: 7rem;
-		padding-bottom: 2rem;
+		padding-top: 10rem;
+		padding-bottom: 3rem;
 		min-height: 70vh;
 		display: flex;
 		flex-direction: column;
@@ -183,6 +183,23 @@ html {
 		margin: 1rem 0 2rem;
 		text-align: center;
 		color: $bright-light;
+	}
+	.cta {
+		max-width: 800px;
+		.buttons {
+			@media only screen and (min-width: 768px) {
+				display: flex;
+			}
+			margin-top: 2rem;
+			a {
+				display: block;
+				flex-grow: 1;
+				margin: 1rem;
+				padding: 1rem;
+				font-weight: bold;
+				text-transform: uppercase;
+			}
+		}
 	}
 }
 
