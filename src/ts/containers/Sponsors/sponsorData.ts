@@ -16,6 +16,11 @@ export const sponsorData: SponsorData[] = [
 		url: 'https://xmission.com/',
 	},
 	{
+		name: 'VLCM',
+		fileName: 'vlcm.png',
+		url: 'https://www.vlcmtech.com/',
+	},
+	{
 		name: 'USU College of Science',
 		fileName: 'college-of-science.png',
 		url: 'https://cs.usu.edu/',
