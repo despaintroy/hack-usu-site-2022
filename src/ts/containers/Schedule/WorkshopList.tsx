@@ -16,9 +16,11 @@ const WorkshopList: FC<WorkshopListProps> = props => {
 		<div className='workshop-list'>
 			{subEvents?.map((s, idx) => (
 				<div key={idx} className='workshop-item'>
-					<div className='workshop-time'>{s.time}</div>
 					<div className='workshop-title'>{s.title}</div>
-					<div className='workshop-location'>{s.location}</div>
+					<div className='workshop-time'>
+						{s.time}
+						{s.location && `, ${s.location}`}
+					</div>
 					<div className='workshop-presenter'>{s.presenter}</div>
 				</div>
 			))}

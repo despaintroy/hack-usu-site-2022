@@ -1,6 +1,6 @@
 import React, { FC } from 'react'
 import { ScheduleItem } from './scheduleContent'
-import WorkshopList from './SubEventList'
+import WorkshopList from './WorkshopList'
 
 interface EventListProps {
 	schedule: ScheduleItem[]
