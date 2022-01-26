@@ -69,7 +69,23 @@ export const satSchedule: ScheduleItem[] = [
 	},
 	{
 		title: 'Tech Talks & Workshops',
-		details: 'Topics to be announced',
+		workshops: [
+			{
+				title: 'Resumes and Cover Letters that Work!',
+				time: '9:00 am',
+				presenter: 'USU Career Design Center',
+			},
+			{
+				title: 'Effective Interviewing Skills',
+				time: '10:00 am',
+				presenter: 'USU Career Design Center',
+			},
+			{
+				title: 'Career & Internship Search Strategies',
+				time: '11:00 am',
+				presenter: 'USU Career Design Center',
+			},
+		],
 	},
 	{
 		time: 'Noon',
