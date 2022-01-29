@@ -52,7 +52,26 @@ export const friSchedule: ScheduleItem[] = [
 	},
 	{
 		title: 'Tech Talks & Workshops',
-		details: 'Topics to be announced',
+		workshops: [
+			{
+				title: 'Firebase: Cloud Services Simplified',
+				time: '7:00 pm',
+				location: 'Room 326',
+				presenter: 'Joseph Ditton - USU Computer Science',
+			},
+			{
+				title: 'Khrysalis: Clean Source-to-Source Transpilation',
+				time: '8:00 pm',
+				location: 'Room 470 (Perry Pavillion)',
+				presenter: 'Joseph Ivie - Lightning Kite',
+			},
+			{
+				title: 'Khrysalis: Hands-on Workshop',
+				time: '9:00 pm',
+				location: 'Room 470 (Perry Pavillion)',
+				presenter: 'Joseph Ivie - Lightning Kite',
+			},
+		],
 	},
 	{
 		time: 'Midnight',
@@ -73,16 +92,19 @@ export const satSchedule: ScheduleItem[] = [
 			{
 				title: 'Resumes and Cover Letters that Work!',
 				time: '9:00 am',
+				location: 'Room 470 (Perry Pavillion)',
 				presenter: 'USU Career Design Center',
 			},
 			{
 				title: 'Effective Interviewing Skills',
 				time: '10:00 am',
+				location: 'Room 470 (Perry Pavillion)',
 				presenter: 'USU Career Design Center',
 			},
 			{
 				title: 'Career & Internship Search Strategies',
 				time: '11:00 am',
+				location: 'Room 470 (Perry Pavillion)',
 				presenter: 'USU Career Design Center',
 			},
 		],
