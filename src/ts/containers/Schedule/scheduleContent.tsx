@@ -71,6 +71,12 @@ export const friSchedule: ScheduleItem[] = [
 				location: 'Room 470 (Perry Pavillion)',
 				presenter: 'Joseph Ivie - Lightning Kite',
 			},
+			{
+				title: 'Collaborative Software Development',
+				time: '10:00 pm',
+				location: 'Room 326',
+				presenter: 'Hunter Henrichsen',
+			},
 		],
 	},
 	{
