@@ -7,8 +7,8 @@ interface SponsorData {
 export const sponsorData: SponsorData[] = [
 	{
 		name: 'USU Huntsman School of Engineering',
-		fileName: 'huntsman-school.jpg',
-		url: 'https://huntsman.usu.edu/',
+		fileName: 'huntsman-dais.png',
+		url: 'https://huntsman.usu.edu/dais/',
 	},
 	{
 		name: 'USU College of Science',
