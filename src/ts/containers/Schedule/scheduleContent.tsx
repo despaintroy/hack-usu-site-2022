@@ -60,6 +60,12 @@ export const friSchedule: ScheduleItem[] = [
 				presenter: 'Joseph Ditton - USU Computer Science',
 			},
 			{
+				title: 'Robotics Showcase',
+				time: '7:00 pm',
+				location: 'EBB 215 Auditorium',
+				presenter: 'Mario Harper - USU Computer Science',
+			},
+			{
 				title: 'Khrysalis: Clean Source-to-Source Transpilation',
 				time: '8:00 pm',
 				location: 'Room 470 (Perry Pavillion)',
