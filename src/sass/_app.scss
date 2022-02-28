@@ -269,21 +269,27 @@ html {
 				padding-left: 0.75rem;
 				margin-left: 0.5rem;
 			}
+			.concurrent-workshop-item ~ .concurrent-workshop-item {
+				padding-top: 1rem;
+			}
 			.workshop-time {
+				font-family: $roboto-slab;
+				letter-spacing: 0.1ch;
 				font-weight: bold;
+				color: $brick;
 				margin-bottom: 0.3rem;
 			}
 			.workshop-title {
 				font-weight: bold;
 				font-size: 1.1rem;
-				color: $brick;
 			}
 			.workshop-location {
 				color: $gray-dark;
 				font-weight: bold;
 			}
 			.workshop-presenter {
-				margin-top: 0.3rem;
+				margin-top: 0.4rem;
+				font-style: italic;
 			}
 		}
 	}

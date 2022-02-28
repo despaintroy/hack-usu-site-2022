@@ -9,12 +9,17 @@ export interface Workshop {
 	presenter?: string
 }
 
+export interface ConcurrentWorkshops {
+	time: string
+	workshops: Omit<Workshop, 'time'>[]
+}
+
 export interface ScheduleItem {
 	time?: string
 	title: string
 	location?: string
 	details?: string | React.ReactElement
-	workshops?: Workshop[]
+	workshops?: (Workshop | ConcurrentWorkshops)[]
 }
 
 export const friSchedule: ScheduleItem[] = [
@@ -37,7 +42,7 @@ export const friSchedule: ScheduleItem[] = [
 		title: 'Opening Keynote',
 		location: 'USU Conference Center',
 		details:
-			'The keynote and opening ceremonies will also be broadcast to overflow rooms in Huntsman Hall. Hang out afterward if you still need to find a team!',
+			'The opening keynote wil be in the auditorium at Eccles Conference Center, adjacent to Huntsman Hall. Hang out afterward if you still need to find a team!',
 	},
 	{
 		time: '5:00 pm',
@@ -54,16 +59,19 @@ export const friSchedule: ScheduleItem[] = [
 		title: 'Tech Talks & Workshops',
 		workshops: [
 			{
-				title: 'Firebase: Cloud Services Simplified',
 				time: '7:00 pm',
-				location: 'Room 326',
-				presenter: 'Joseph Ditton - USU Computer Science',
-			},
-			{
-				title: 'Robotics Showcase',
-				time: '7:00 pm',
-				location: 'EBB 215 Auditorium',
-				presenter: 'Mario Harper - USU Computer Science',
+				workshops: [
+					{
+						title: 'Firebase: Cloud Services Simplified',
+						location: 'Room 326',
+						presenter: 'Joseph Ditton - USU Computer Science',
+					},
+					{
+						title: 'Robotics Showcase',
+						location: 'EBB 215 Auditorium',
+						presenter: 'Mario Harper - USU Computer Science',
+					},
+				],
 			},
 			{
 				title: 'Khrysalis: Clean Source-to-Source Transpilation',
@@ -108,10 +116,19 @@ export const satSchedule: ScheduleItem[] = [
 				presenter: 'USU Career Design Center',
 			},
 			{
-				title: 'Effective Interviewing Skills',
 				time: '10:00 am',
-				location: 'Room 470 (Perry Pavillion)',
-				presenter: 'USU Career Design Center',
+				workshops: [
+					{
+						title: 'How to Build Awesome Web APIs',
+						location: 'Room 326',
+						presenter: 'Maiden Voyage Software',
+					},
+					{
+						title: 'Effective Interviewing Skills',
+						location: 'Room 470 (Perry Pavillion)',
+						presenter: 'USU Career Design Center',
+					},
+				],
 			},
 			{
 				title: 'Career & Internship Search Strategies',
@@ -129,8 +146,7 @@ export const satSchedule: ScheduleItem[] = [
 	{
 		time: '3:30 pm',
 		title: 'Coding ends!',
-		details:
-			'Submit your final code before 3:30, and your video demo before 4:00.',
+		details: 'Record and submit a short 2-minute video of what you made!',
 	},
 	{
 		time: '4:00 - 6:00 pm',
@@ -141,10 +157,10 @@ export const satSchedule: ScheduleItem[] = [
 	},
 	{
 		time: '5:00 - 6:00 pm',
-		title: 'Judging for finalists',
+		title: 'Judging for Finalists',
 		location: '3rd floor classrooms',
 		details:
-			'Finalists for each category are invited to present for judges. Anyone can come watch!',
+			'Finalists for each category are invited to answer questions about their project for the judges. Anyone can come watch!',
 	},
 	{
 		time: '6:30 pm',

@@ -1,12 +1,12 @@
 import React, { FC } from 'react'
-import { Workshop } from './scheduleContent'
+import { Workshop, ConcurrentWorkshops } from './scheduleContent'
 
 interface WorkshopListProps
 	extends React.DetailedHTMLProps<
 		React.HTMLAttributes<HTMLDivElement>,
 		HTMLDivElement
 	> {
-	subEvents?: Workshop[]
+	subEvents?: (Workshop | ConcurrentWorkshops)[]
 }
 
 const WorkshopList: FC<WorkshopListProps> = props => {
@@ -14,16 +14,34 @@ const WorkshopList: FC<WorkshopListProps> = props => {
 
 	return (
 		<div className='workshop-list'>
-			{subEvents?.map((s, idx) => (
-				<div key={idx} className='workshop-item'>
-					<div className='workshop-title'>{s.title}</div>
-					<div className='workshop-time'>
-						{s.time}
-						{s.location && `, ${s.location}`}
+			{subEvents?.map((s, idx) => {
+				// If concurrent workshops, render them as a list
+				if ('workshops' in s) {
+					const { workshops } = s
+					console.log(workshops)
+					return (
+						<div key={idx} className='workshop-item'>
+							<div className='workshop-time'>{s.time}</div>
+							{workshops.map((w, idx) => (
+								<div key={idx} className='concurrent-workshop-item'>
+									<div className='workshop-title'>{w.title}</div>
+									<div className='workshop-location'>{w.location}</div>
+									<div className='workshop-presenter'>{w.presenter}</div>
+								</div>
+							))}
+						</div>
+					)
+				}
+				// Else, it is a singel workshop
+				return (
+					<div key={idx} className='workshop-item'>
+						<div className='workshop-time'>{s.time}</div>
+						<div className='workshop-title'>{s.title}</div>
+						<div className='workshop-location'>{s.location}</div>
+						<div className='workshop-presenter'>{s.presenter}</div>
 					</div>
-					<div className='workshop-presenter'>{s.presenter}</div>
-				</div>
-			))}
+				)
+			})}
 		</div>
 	)
 }
