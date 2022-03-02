@@ -24,12 +24,12 @@ export interface ScheduleItem {
 
 export const friSchedule: ScheduleItem[] = [
 	{
-		time: '3:00 pm',
+		time: '4:00 pm',
 		title: 'Check-in Opens',
 		location: 'Huntsman Hall North Entrance',
 		details: (
 			<>
-				Check-in will be available from 3:00 to midnight. Come pick-up your
+				Check-in will be available from 4:00 to midnight. Come pick-up your
 				HackUSU swag, and{' '}
 				<a href={DISCORD_LINK} target='_blank' rel='noreferrer'>
 					join the Discord!
@@ -38,22 +38,22 @@ export const friSchedule: ScheduleItem[] = [
 		),
 	},
 	{
-		time: '4:00 - 5:00 pm',
-		title: 'Opening Keynote',
-		location: 'USU Conference Center',
-		details:
-			'The opening keynote wil be in the auditorium at Eccles Conference Center, adjacent to Huntsman Hall. Hang out afterward if you still need to find a team!',
-	},
-	{
-		time: '5:00 pm',
-		title: 'Start coding!',
-		details:
-			'Groups can work in any study rooms, and 1st and 2nd floor classrooms.',
+		time: '4:30 pm',
+		title: 'Dinner and Team Forming',
+		location: '2nd floor',
 	},
 	{
 		time: '6:00 pm',
-		title: 'Dinner',
-		location: '2nd floor',
+		title: 'Opening Keynote',
+		location: 'USU Eccles Conference Center (Auditorium)',
+		details:
+			'Jeannie Johnson, founding director of the Center for Anticipatory Intelligence, will deliver the opening keynote. The Eccles Conference Center is located across the sidewalk from the Huntsman Hall North Entrance.',
+	},
+	{
+		time: '7:00 pm',
+		title: 'Start coding!',
+		details:
+			'Groups can work in any study rooms, and 1st and 2nd floor classrooms.',
 	},
 	{
 		title: 'Tech Talks & Workshops',
@@ -69,7 +69,7 @@ export const friSchedule: ScheduleItem[] = [
 					{
 						title: 'Robotics Showcase',
 						location: 'EBB 215 Auditorium',
-						presenter: 'Mario Harper - USU Computer Science',
+						presenter: 'Mario Harper - Robotics and Artificial Intelligence Lab',
 					},
 				],
 			},

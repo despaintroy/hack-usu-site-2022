@@ -18,7 +18,6 @@ const WorkshopList: FC<WorkshopListProps> = props => {
 				// If concurrent workshops, render them as a list
 				if ('workshops' in s) {
 					const { workshops } = s
-					console.log(workshops)
 					return (
 						<div key={idx} className='workshop-item'>
 							<div className='workshop-time'>{s.time}</div>
