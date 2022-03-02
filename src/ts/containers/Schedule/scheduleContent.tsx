@@ -39,7 +39,7 @@ export const friSchedule: ScheduleItem[] = [
 	},
 	{
 		time: '4:30 pm',
-		title: 'Dinner and Team Forming',
+		title: 'Dinner & Team Forming',
 		location: '2nd floor',
 	},
 	{
@@ -69,7 +69,8 @@ export const friSchedule: ScheduleItem[] = [
 					{
 						title: 'Robotics Showcase',
 						location: 'EBB 215 Auditorium',
-						presenter: 'Mario Harper - Robotics and Artificial Intelligence Lab',
+						presenter:
+							'Mario Harper - Robotics and Artificial Intelligence Lab',
 					},
 				],
 			},
