@@ -68,7 +68,7 @@ export const friSchedule: ScheduleItem[] = [
 					},
 					{
 						title: 'Robotics Showcase',
-						location: 'EBB 215 Auditorium',
+						location: 'Room 320',
 						presenter:
 							'Mario Harper - Robotics and Artificial Intelligence Lab',
 					},
@@ -77,13 +77,13 @@ export const friSchedule: ScheduleItem[] = [
 			{
 				title: 'Khrysalis: Clean Source-to-Source Transpilation',
 				time: '8:00 pm',
-				location: 'Room 470 (Perry Pavillion)',
+				location: 'Room 322',
 				presenter: 'Joseph Ivie - Lightning Kite',
 			},
 			{
 				title: 'Khrysalis: Hands-on Workshop',
 				time: '9:00 pm',
-				location: 'Room 470 (Perry Pavillion)',
+				location: 'Room 322',
 				presenter: 'Joseph Ivie - Lightning Kite',
 			},
 			{
@@ -113,7 +113,7 @@ export const satSchedule: ScheduleItem[] = [
 			{
 				title: 'Resumes and Cover Letters that Work!',
 				time: '9:00 am',
-				location: 'Room 470 (Perry Pavillion)',
+				location: 'Room 326',
 				presenter: 'USU Career Design Center',
 			},
 			{
@@ -121,12 +121,12 @@ export const satSchedule: ScheduleItem[] = [
 				workshops: [
 					{
 						title: 'How to Build Awesome Web APIs',
-						location: 'Room 326',
+						location: 'Room 322',
 						presenter: 'Maiden Voyage Software',
 					},
 					{
 						title: 'Effective Interviewing Skills',
-						location: 'Room 470 (Perry Pavillion)',
+						location: 'Room 326',
 						presenter: 'USU Career Design Center',
 					},
 				],
@@ -134,7 +134,7 @@ export const satSchedule: ScheduleItem[] = [
 			{
 				title: 'Career & Internship Search Strategies',
 				time: '11:00 am',
-				location: 'Room 470 (Perry Pavillion)',
+				location: 'Room 326',
 				presenter: 'USU Career Design Center',
 			},
 		],
