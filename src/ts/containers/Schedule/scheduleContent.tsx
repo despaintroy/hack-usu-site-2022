@@ -50,7 +50,7 @@ export const friSchedule: ScheduleItem[] = [
 			'Jeannie Johnson, founding director of the Center for Anticipatory Intelligence, will deliver the opening keynote. The Eccles Conference Center is located across the sidewalk from the Huntsman Hall North Entrance.',
 	},
 	{
-		time: '7:00 pm',
+		time: '6:45 pm',
 		title: 'Start coding!',
 		details:
 			'Groups can work in any study rooms, and 1st and 2nd floor classrooms.',
@@ -67,6 +67,11 @@ export const friSchedule: ScheduleItem[] = [
 						presenter: 'Joseph Ditton - USU Computer Science',
 					},
 					{
+						title: 'Intro to Kotlin',
+						location: 'Room 322',
+						presenter: 'Joseph Ivie - Lightning Kite',
+					},
+					{
 						title: 'Robotics Showcase',
 						location: 'Room 320',
 						presenter:
@@ -75,13 +80,13 @@ export const friSchedule: ScheduleItem[] = [
 				],
 			},
 			{
-				title: 'Khrysalis: Clean Source-to-Source Transpilation',
+				title: 'Khrysalis: Advanced Source-to-Source Transpilation',
 				time: '8:00 pm',
 				location: 'Room 322',
 				presenter: 'Joseph Ivie - Lightning Kite',
 			},
 			{
-				title: 'Khrysalis: Hands-on Workshop',
+				title: 'Khrysalis: Intro Hands-on Workshop',
 				time: '9:00 pm',
 				location: 'Room 322',
 				presenter: 'Joseph Ivie - Lightning Kite',
@@ -143,6 +148,23 @@ export const satSchedule: ScheduleItem[] = [
 		time: 'Noon',
 		title: 'Lunch',
 		location: '2nd floor',
+	},
+	{
+		title: 'Tech Talks & Workshops',
+		workshops: [
+			{
+				title: 'Kotlin Server',
+				time: '1:00 pm',
+				location: 'Room 322',
+				presenter: 'Joseph Ivie - Lightning Kite',
+			},
+			{
+				title: 'Reactive Programming with RX',
+				time: '2:00 pm',
+				location: 'Room 322',
+				presenter: 'Joseph Ivie - Lightning Kite',
+			},
+		],
 	},
 	{
 		time: '3:30 pm',
