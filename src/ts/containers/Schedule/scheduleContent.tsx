@@ -119,7 +119,7 @@ export const satSchedule: ScheduleItem[] = [
 				title: 'Resumes and Cover Letters that Work!',
 				time: '9:00 am',
 				location: 'Room 326',
-				presenter: 'USU Career Design Center',
+				presenter: 'Melanie Miller - USU Career Design Center',
 			},
 			{
 				time: '10:00 am',
@@ -132,7 +132,7 @@ export const satSchedule: ScheduleItem[] = [
 					{
 						title: 'Effective Interviewing Skills',
 						location: 'Room 326',
-						presenter: 'USU Career Design Center',
+						presenter: 'Dannon Loveland - USU Career Design Center',
 					},
 				],
 			},
@@ -140,7 +140,7 @@ export const satSchedule: ScheduleItem[] = [
 				title: 'Career & Internship Search Strategies',
 				time: '11:00 am',
 				location: 'Room 326',
-				presenter: 'USU Career Design Center',
+				presenter: 'Joseph Banks - USU Career Design Center',
 			},
 		],
 	},
