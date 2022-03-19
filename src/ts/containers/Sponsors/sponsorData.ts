@@ -21,6 +21,11 @@ export const sponsorData: SponsorData[] = [
 		url: 'https://lightningkite.com/',
 	},
 	{
+		name: 'Focused Support',
+		fileName: 'focused-support.png',
+		url: '',
+	},
+	{
 		name: 'Space Dynamics Laboratory',
 		fileName: 'sdl.png',
 		url: 'https://sdl.usu.edu/',
